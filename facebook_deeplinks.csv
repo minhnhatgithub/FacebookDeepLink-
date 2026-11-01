@@ -1,0 +1,1173 @@
+Scheme,Category,URI,HasParameters
+dialtone,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),dialtone://open_zb_portal,No
+dialtone,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),dialtone://start,No
+dialtone,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),dialtone://switch_to_dialtone,No
+dialtone,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),dialtone://switch_to_full_fb,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://(profile/\d+|feed|cmon_status)$,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://))?((www\.)|(m\.))?((fb\.gg)|(fb\.com/gaming)|(facebook\.com/gaming))(/|$),Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://.*$,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://about,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://about_info,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://about_info?profileId={?profileId}&focus_avatar={?focus_avatar},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://account-kit/confirmation_code/?confirmation_code={confirmation_code},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://account/recovery,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://account_link_auth?token={?token}&blob={?blob},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://account_location_optin,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://account_location_optin?source={?source}&entry_point={?entry_point}&session_id={?session_id}&location_storage={?!location_storage}&background_collection={?!background_collection}&location_service_always={?!location_service_always},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://account_settings,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://account_status,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://accountquality/?actor_id={actor_id}&source={source},Yes
+fb,Groups & Communities (Hội Nhóm),fb://accountquality/?adgroup_id={adgroup_id}&source={source},Yes
+fb,Groups & Communities (Hội Nhóm),fb://accountquality/?selected_adgroup_ids={selected_adgroup_ids}&source={source},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://accounts_center/add_wa_finished,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://acredirect?deeplink_destination={deeplink_destination}&entrypoint={entrypoint},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://acredirect?deeplink_destination={deeplink_destination}&entrypoint={entrypoint}&deeplink_params={deeplink_params},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://acv_deeplink_handler/?type={type}&identifier={identifier}&source={?source}&extra_params={?extra_params},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://ad_activity,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://ad_activity?source={?source},Yes
+fb,"Reels, Watch, Video & Media",fb://ad_break/admin_preview/?video_id={?video_id}&time_offsets={?time_offsets},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://ad_widget/{id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://additional_profile/create,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://additional_profile/unified_creation?source={source},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://ads_lwi/bloks_lwi_generic_client_callback?action={action}&params={params}&close_browser={?close_browser},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://ads_lwi_boost_post/?source=profile_plus_mobile_boost_reel_bottomsheet_toast&page_id=,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://ads_preview_injection,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://ads_preview_injection/facebook,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://ads_preview_injection/managed_meta_account,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://ads_reconsideration_hub,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://ads_reconsideration_hub?entry_point={?entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://affiliate_partnerships,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://affiliate_partnerships/{subpath},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://affiliate_partnerships/{subpath}?param={?value},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://affiliate_partnerships?param={?value},Yes
+fb,Generative AI & Meta Bots,fb://ai_character/?action={action}&entry_point={?entry_point}&extra_data={?extra_data}&persona_id={?persona_id}&sub_action={?sub_action},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://ai_character_create_profile?persona_id={?persona_id}&entry_point={?entry_point},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://ai_character_drafts?persona_id={?persona_id}&entry_point={?entry_point}&profile_id={?profile_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://ai_character_profile_switch?profile_id=%s,Yes
+fb,Generative AI & Meta Bots,fb://ai_manage_memory,No
+fb,Generative AI & Meta Bots,fb://ai_widget/{id},Yes
+fb,Generative AI & Meta Bots,fb://ai_widget/{id}?entrypoint={entrypoint},Yes
+fb,Generative AI & Meta Bots,fb://ai_widget/{id}?id_type={id_type},Yes
+fb,Generative AI & Meta Bots,fb://ai_widget/{id}?view={view},Yes
+fb,"Reels, Watch, Video & Media",fb://albums,No
+fb,"Reels, Watch, Video & Media",fb://albums/?tab={?tab},Yes
+fb,"Reels, Watch, Video & Media",fb://albums/?tab_to_land={?tab_to_land},Yes
+fb,"Reels, Watch, Video & Media",fb://albums/{#owner_id},Yes
+fb,"Reels, Watch, Video & Media",fb://albums/{#owner_id}?tab={?tab},Yes
+fb,"Reels, Watch, Video & Media",fb://albums/{#owner_id}?tab_to_land={?tab_to_land},Yes
+fb,"Reels, Watch, Video & Media",fb://albums_edit_flow,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://approve_from_another_device/open?approval_id={id},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://approve_from_another_device/open?approval_id={id}&login_account_type={login_account_type},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://approve_from_another_device/open?approval_id={id}&login_account_type={login_account_type}&login_account_obid={login_account_obid},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://approve_from_another_device/open?approval_id={id}&source={source},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://approve_from_another_device/open?approval_id={id}&source={source}&login_account_type={login_account_type},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://approve_from_another_device/open?approval_id={id}&source={source}&login_account_type={login_account_type}&login_account_obid={login_account_obid},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://ar/commerce/try/?product_id={product_id}&effect_config_id={containerId}&experience_type={experienceType}&ch={?ch},Yes
+fb,"Reels, Watch, Video & Media",fb://aradscamera/?effect_id={effect_id}&encoded_token={encodedToken}&adgroup_id={?adgroupID}&device_position={?devicePosition}&ad_impression_client_token={?adClientToken}&mode={?mode}&product_id={?product_id},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://auth-platform-continue,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://auth-platform-continue?context_data={context_data},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://auth-platform-continue?device_id={?device_id}&context_data={context_data},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://auto_login?src={src}&redirect={redirect},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://autoflex_info_screen,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://autoflex_info_screen/?location={?location},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://avatar,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://avatar/edit/{extras},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://avatar?surface={?surface}&mechanism={?mechanism}&nux={?!nux}&source_type={?source_type}&destination={?destination}&post_save_share_option={?post_save_share_option}&post_save_wait_time_millis={?#post_save_wait_time_millis}&initial_category_id={?initial_category_id}&redirect_url={?redirect_url}&on_launch_navigate_to={?on_launch_navigate_to}&on_launch_navigation_data={?on_launch_navigation_data}&target_user_id={?target_user_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://basel,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bcp_campaign_details/{project_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://birthday_center_deep_link/prefetch/default,No
+fb,Generative AI & Meta Bots,fb://biz_ai_agent,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://biz_ai_agent/?page_id={?page_id}&ad_id={?ad_id}&render_format={?render_format}&partial_height_pct={?partial_height_pct}&disable_dragging={!?disable_dragging}&fds_override_id={?fds_override_id}&entry_point={?entry_point}&product_type={?product_type}&admin_message={?admin_message}&pill_question={?pill_question}&pill_id={?pill_id}&ad_tracking_token={?ad_tracking_token}&is_voice_enabled={?is_voice_enabled}&prompt_question_full={?prompt_question_full}&end_card_product_ids={?end_card_product_ids},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://biz_disco/immersive_feed,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://biz_info_center,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bloks_lab,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bloks_lab?app_id={app_id}&bloks_screen_params={?bloks_screen_params}&bloks_screen_options={?bloks_screen_options}&tier={?tier},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bloks_lab?shortcode={shortcode}&tier={?tier},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bloks_screen/,No
+fb,"Marketplace, Shopping & Meta Pay",fb://bloks_screen/?bloks_screen_id=com.bloks.www.bloks.commerce.cart.multimerchantcart&bloks_screen_params={?bloks_screen_params}&bloks_screen_options={?bloks_screen_options}&bloks_cache_override_key={?bloks_cache_override_key},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://bloks_screen/?bloks_screen_id=com.bloks.www.bloks.commerce.cart.singlemerchantcart&bloks_screen_params={?bloks_screen_params}&bloks_screen_options={?bloks_screen_options}&bloks_cache_override_key={?bloks_cache_override_key},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://bloks_screen/?bloks_screen_id=com.bloks.www.bloks.facebook.settings.consent_center&bloks_screen_options=%7B%22ttrc_marker_id%22%3A719983200%7D&bloks_screen_params=%7B%22server_params%22%3A%7B%22node_id%22%3A%22consent_settings%22%7D%2C%22client_input_params%22%3A%7B%7D%7D,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bloks_screen?bloks_screen_id={bloks_screen_id}&bloks_screen_params={?bloks_screen_params}&bloks_screen_options={?bloks_screen_options}&bloks_cache_override_key={?bloks_cache_override_key},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bloks_screen_query/.*BloksFanHubAggregatedHscrollScreenQuery,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bloks_screen_query?app_id={app_id}&bloks_screen_params={?bloks_screen_params}&bloks_screen_options={?bloks_screen_options},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bookmarks,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bookmarks_section,No
+fb,"Reels, Watch, Video & Media",fb://boost_event/?page_id={page_id}&boost_id={?boost_id}&graphql_story_id={storyId}&legacy_story_id={?legacy_story_id}&promotion_target_id={?promotion_target_id}&placement_extra={?placement_extra}&source={?source}&coupon_promotion_group_id={?coupon_promotion_group_id}&ad_account_id={?ad_account_id}&scroll_to_section={?scroll_to_section}&show_native={?!show_native}&request_data={?request_data}&so={?so}&draft_id={?draft_id}&entry_point_details={?entry_point_details},Yes
+fb,"Reels, Watch, Video & Media",fb://boost_fb_story/?page_id={page_id}&boost_id={?boost_id}&graphql_story_id={?storyId}&referral={?referral}&ad_account_id={?ad_account_id}&scroll_to_section={?scroll_to_section}&show_native={?!show_native}&request_data={?request_data},Yes
+fb,"Reels, Watch, Video & Media",fb://boost_ig_media/?page_id={page_id}&boost_id={?boost_id}&target_id={?target_id}&source={?source}&scroll_to_section={?scroll_to_section}&show_native={?!show_native}&request_data={?request_data}&so={?so}&draft_id={?draft_id}&entry_point_details={?entry_point_details},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://boost_marketplace_listing/?page_id={page_id}&boost_id={?boost_id}&target_id={?target_id}&source={?source}&so={?so},Yes
+fb,"Reels, Watch, Video & Media",fb://boost_post/?page_id={page_id}&boost_id={?boost_id}&source={?source}&graphql_story_id={storyId}&legacy_story_id={?legacy_story_id}&referral={?referral}&coupon_promotion_group_id={?coupon_promotion_group_id}&ad_account_id={?ad_account_id}&scroll_to_section={?scroll_to_section}&show_native={?!show_native}&request_data={?request_data}&is_boost_job_post={?!is_boost_job_post}&so={?so}&draft_id={?draft_id}&entry_point_details={?entry_point_details},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://boosted_lead_gen/?page_id={page_id}&boost_id={?boost_id}&form_id={?form_id}&source={?source}&scroll_to_section={?scroll_to_section}&show_native={?!show_native}&request_data={?request_data}&so={?so}&entry_point_details={?entry_point_details},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://browser_setting/{activity_resource},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://bugreport,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://business_link_management/?profile_id={profile_id}&page_id={page_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://business_link_management/setting_entrypoint/?profile_id={profile_id}&entry_point={entry_point},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://business_resources,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://business_service_center?referrer={referrer},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://change_app_icon?entry_point={?entry_point},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://channels_insight/?thread_id={thread_id},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://chat_settings,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://childhood_vaccines,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://childhood_vaccines/{unit}?source={source}&milestone_compass_unit_id={milestone_compass_unit_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://childhood_vaccines/{unit}?source={source}&milestone_compass_unit_id={milestone_compass_unit_id}&expanded_vaccine_dose_unit_id={expanded_vaccine_dose_unit_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://childhood_vaccines?source={source},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://close_friends_list,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://comment/{comment_id}?feedback={feedback_id}&product_id={?product_id}&tracking_codes={?tracking_codes}&can_viewer_see_suggested_reply={?can_viewer_see_suggested_reply}&story_id={?story_id}&story_cache_id={?story_cache_id}&relevant_comment_id={?relevant_comment_id}&thread_parent_comment_ids={?thread_parent_comment_ids},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://comment_reshare/?comment_id={comment_id},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://commerce/notification/catalogs/{catalog_id}/products?source={source},Yes
+fb,Groups & Communities (Hội Nhóm),fb://community_bot_setup?bot_page_id={bot_page_id}&thread_id={thread_id}&redirect_to_messenger={!redirect_to_messenger},Yes
+fb,Groups & Communities (Hội Nhóm),fb://community_messaging/activation/member/bottomsheet/v2?group_id={group_id}&thread_id={thread_id}&source={?source},Yes
+fb,Groups & Communities (Hội Nhóm),fb://community_notes_hub,No
+fb,Groups & Communities (Hội Nhóm),fb://communityqna/destination?group_id={group_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://composer?view=live&text={?text},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://compost/draft,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://compost/draft/?draft_id={draft_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://confirmAccount/?normalized_contactpoint={normalized}&contactpoint_type={type}&conf_surface={conf_surface},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://confirmAccount/?normalized_contactpoint={normalized}&contactpoint_type={type}&conf_surface={conf_surface}&iso_country_code={country},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://confirmAccount/?normalized_contactpoint={normalized}&contactpoint_type={type}&conf_surface={conf_surface}&iso_country_code={country}&for_phone_number_confirmation={phone_number}&quick_promotion_id={quick_promotion}&quick_promotion_type={quick_promotion_type},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://confirmAccount/?normalized_contactpoint={normalized}&contactpoint_type={type}&iso_country_code={country},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://consent-launcher-nt/?flow_name={flow_name}&source={?source}&device_id={?device_id}&extra_params={?extra_params},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://consent-launcher/?flow_name={flow_name}&source={?source}&device_id={?device_id}&extra_params={?extra_params}&app_id={?app_id}&trigger_key={?trigger_key},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://consent_experiences_kit/?flow_name={flow_name}&experience_id={experience_id}&screen_type={?screen_type},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://consent_settings_bloks,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://consents/?flow_name={flow_name}&source={?source}&device_id={?device_id}&extra_params={?extra_params}&prompt_context={?prompt_context}&hide-navbar={?hide-navbar}&hide-search-field={?hide-search-field}&presentation-method={?presentation-method}&disable-rotation={?disable-rotation},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://contact_upload_settings/?source=bookmarks,Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://contextual_profile_view?member_id={member_id}&group_id={group_id}&landing_type={?landing_type}&landing_associated_id={?landing_associated_id},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://contextualprofileedit?id={member_id}&render_location={render_location}&associated_entity_id={associated_entity_id},Yes
+fb,"Reels, Watch, Video & Media",fb://copyright_replace_audio?video_id={video_id}&duration={duration},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://coronavirus_business_info,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://coronavirus_info,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://coronavirus_info?,Yes
+fb,"Reels, Watch, Video & Media",fb://coverphoto,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://covidsupport,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://create_huddle,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://create_huddle?start_time_offset={?start_time_offset},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://createevent,No
+fb,"Reels, Watch, Video & Media",fb://createevent?ref_module={?ref_module}&ref_mechanism={?ref_mechanism}&page_id={?page_id}&group_id={?group_id}&live_tour_listing_id={?live_tour_listing_id}&event_type={?event_type}&event_name={?event_name}&start_time={?start_time}&end_time={?end_time}&description={?description}&online_format={?online_format}&third_party_link={?third_party_link}&event_template={?event_template}&skipped_steps={?skipped_steps}&creation_entrypoint={?creation_entrypoint}&event_creator={?event_creator}&link_existing_chat_id={?link_existing_chat_id}&cover_photo_id={?cover_photo_id}&start_on_preview_screen={?start_on_preview_screen}&llm_response_id={?llm_response_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://creative_playground,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://creative_playground?source={?source}&highlighted_section={?highlighted_section},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://creator_bonuses?creator_id={creator_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://creator_digest/?creator_id={creator_id}&fan_type={?fan_type}&entrypoint={?entrypoint},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://creator_explore,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://creator_fan_hub/{#profile_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://creator_fan_hub/{#profile_id}?entry_point={?entry_point}&post_id={?post_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://creator_hub/home,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://creator_oauth_link?service={?service}&link_id={?link_id}&auth_data={?auth_data}&access_token={?access_token}&refresh_token={?refresh_token}&expires_in={?expires_in}&scope={?scope}&error={?error},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://creator_programs/signup/?referral_code={referral_code},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://creator_programs/signup/?referral_code={referral_code}&id={#id},Yes
+fb,"Reels, Watch, Video & Media",fb://cross_app_tagging_bottom_sheet?actor_name={actor_name}&actor_id={actor_id}&photo_url={photo_url},Yes
+fb,"Reels, Watch, Video & Media",fb://cross_app_tagging_bottom_sheet?actor_name={actor_name}&actor_id={actor_id}&photo_url={photo_url}&origin={origin},Yes
+fb,"Reels, Watch, Video & Media",fb://cross_app_tagging_bottom_sheet?actor_name={actor_name}&actor_id={actor_id}&photo_url={photo_url}&origin={origin}&click_source={click_source},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://csa_callback_return?is_success={?!is_success}&url={?url},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://csa_twa_callback_return?is_success={?!is_success}&url={?url},Yes
+fb,Groups & Communities (Hội Nhóm),fb://cta_promotion/?page_id={page_id}&boost_id={?boost_id}&target_id={?target_id}&source={?source}&referral={?referral}&restore_saved_settings={?restore_saved_settings}&coupon_promotion_group_id={?coupon_promotion_group_id}&ad_account_id={?ad_account_id}&scroll_to_section={?scroll_to_section}&show_native={?!show_native}&request_data={?request_data}&so={?so}&draft_id={?draft_id}&entry_point_details={?entry_point_details},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://custom_error_page,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://daily_dialogue_weather_permalink,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://daily_dialogue_weather_permalink?orig_src={?orig_src}&city_id={?city_id}&entrypoint={?entrypoint},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://dark_mode_settings/?entry=bookmark_menu,Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://dark_mode_settings/?entry=qp,Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://dark_mode_settings/?entry=search,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://dating,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://dating?entry_point={?entry_point}&home_redirect={?home_redirect}&target_user_id={?target_user_id},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://dbl_login_activity,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://dd_self_resolution/?ad_account_id={?ad_account_id_val}&entry_point={?entry_point_val},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://dd_self_resolution?ad_account_id={?ad_account_id_val},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://device_location_optin,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://device_location_optin?source={?source}&entry_point={?entry_point}&session_id={?session_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://dialtone_info_screen,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://dialtone_info_screen/?location={?location},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://dialtone_info_screen/?location={?location}&notification_acked={?!notification_acked},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://dialtone_info_screen/?location={?location}&promo={?promo},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://discovery/hub/?hub={hub}&hoisted_unit_id={?hoisted_unit_id}&focused_content_id={?focused_content_id}&entrypoint={?entrypoint}&entrypoint_data={?entrypoint_data}&,Yes
+fb,Generative AI & Meta Bots,fb://dogfooding_assistant,No
+fb,"Reels, Watch, Video & Media",fb://donate/?fundraiser_campaign_id={fundraiser_campaign_id}&post_id={?post_id}&source={?source}&video_id={?video_id}&action_type={?action_type}&source_data={?source_data},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://donate/team_fundraiser/?team_fundraiser_id={?team_fundraiser_id}&source_data={?source_data},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://donate_create,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://donate_create/?source={?source}&promotional_source={?promotional_source}&prefill_type={?prefill_type}&beneficiary_type={?beneficiary_type}&default_category={?default_category}&fundraiser_charity_id={?fundraiser_charity_id}&force_create_form={!?force_create_form}&fundraiser_campaign_id={?fundraiser_campaign_id}&source_data={?source_data}&rejection_reason={?rejection_reason}&parent_container_id={?parent_container_id}&page_id={?page_id}&team_campaign_id={?team_campaign_id}&challenge_id={?challenge_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://donate_invite/?fundraiser_campaign_id={fundraiser_campaign_id}&source={?source}&referral_source={?referral_source}&prefill_type={?prefill_type}&source_data={?source_data}&action_type={?action_type}&share_after_invite={?!share_after_invite}&should_launch_fundraiser={?!should_launch_fundraiser}&parent_container_id={?parent_container_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://donate_invite_new,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://donate_single_click_invite/?fundraiser_campaign_id={fundraiser_campaign_id}&source={?source}&referral_source={?referral_source}&prefill_type={?prefill_type}&source_data={?source_data}&action_type={?action_type}&share_after_invite={?!share_after_invite}&should_launch_fundraiser={?!should_launch_fundraiser}&parent_container_id={?parent_container_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://draft_review_saved_confirmation_toast,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://draft_review_saved_confirmation_toast?is_deleted={?!is_deleted},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://dynamic_descriptor/?ad_account_id={?ad_account_id_val}&entry_point={?entry_point_val},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://dynamic_descriptor?ad_account_id={?ad_account_id_val},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://e2ee/inbox/eb/drive_deprecation,No
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://e2eesecurestoragesettings,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://edit_contextual_profile?member_id={member_id}&render_location={render_location}&associated_entity_id={associated_entity_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://editprofilebio/?suggested_status={suggested_status},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://emotional_health,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://emotional_health/{unit},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://event/{event_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://event/{event_id}?event_ref_mechanism={?event_ref_mechanism}&event_ref_surface={?extra_ref_module}&action={?action},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://event_creation,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://event_creation/{page_id},Yes
+fb,"Reels, Watch, Video & Media",fb://event_creation?ref_module={?ref_module}&ref_mechanism={?ref_mechanism}&edit_event_id={?edit_event_id}&page_id={?page_id}&group_id={?group_id}&live_tour_listing_id={?live_tour_listing_id}&title={?title},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://event_edit?event_id={event_id}&ref_module={extra_ref_module}&ref_mechanism={extra_ref_mechanism},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://event_edit?event_id={event_id}&ref_module={extra_ref_module}&ref_mechanism={extra_ref_mechanism}&is_duplicate={duplicate},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://event_messaging_stories_feedback,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://events,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://events/calendar,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://events/calendar/pivot?surface_type={?surface_type},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://events/calendar/pivot?surface_type={?surface_type}&event_ref_mechanism={?event_ref_mechanism}&event_ref_surface={?event_ref_surface},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://events/calendar/{event_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://events/calendar?event_ref_mechanism={?event_ref_mechanism}&event_ref_surface={?event_ref_surface},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://events/campaign?suggestion_token={suggestion_token}&title={title}&ref_notif_type={ref_notif_type}&ref_surface={ref_surface}&ref_mechanism={ref_mechanism},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://events/settings,No
+fb,"Reels, Watch, Video & Media",fb://events?event_ref_surface={?extra_ref_module}&event_ref_mechanism={?event_ref_mechanism}&notif_suggestion_token={?notif_suggestion_token}&ref_notif_type={?tracking_notification_type}&hoist_event_ids={?hoist_event_ids}&notification_id={?notification_id}&hoist_story_id={?hoist_story_id}&post_reminder_id={?post_reminder_id}&hoisted_content_ids={?hoisted_content_ids}&hoist_to_tab={?hoist_to_tab}&lat={?lat}&lng={?lng},Yes
+fb,"Reels, Watch, Video & Media",fb://expertqna?story_id={id}&entry_point={?entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://explore/?hoisted_post_ids={?hoisted_post_ids}&referrer={?referrer}&tab_id={?tab_id}&push={?!push}&navigate={?!navigate}&launch_mode={?launch_mode},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://explore?force_native=true,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://explore?force_native={!force_native},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://explore_minifeed/?token={token},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://extbrowser,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://extbrowser?url={url}&ad_id={?ad_id}&sot_exp_id={?sot_exp_id}&sot_ver_id={?sot_ver_id}&tracking_token={?tracking_token}&force_custom_tab={?force_custom_tab},Yes
+fb,Groups & Communities (Hội Nhóm),fb://facebook.com/groups/email_verification?group_id={group_id}&entry_point={entry_point}&verification_code={?verification_code},Yes
+fb,"Reels, Watch, Video & Media",fb://facebook.com/playable_ad?playable_url={playable_url}&store_url={?store_url}&title={?title}&icon_url={?icon_url}&tracking_codes={?tracking_codes}&blurred_video_thumbnail_url={?blurred_video_thumbnail_url}&google_play_overlay={?google_play_overlay}&placement={?placement}&intent_should_get_data_or_get_string_extra={?intent_should_get_data_or_get_string_extra}&destination_url={?destination_url}&subtitle={?subtitle}&cta_text={?cta_text}&metaline={?metaline}&version={?version}&star_rating={?star_rating}&number_of_reviews={?number_of_reviews}&floating_cta_text={?floating_cta_text}&install_count={?install_count},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://facebook_settings/?entry_point={?entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://faceweb/f?href=,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://family_nav_instagram_install,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fan_challenge_bloks/?challenge_id={challenge_id}&entrypoint={entrypoint},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://fan_challenges_main_fragment/?id={id}&entrypoint={?entrypoint}&initial_tab={?initial_tab}&feed_context={?feed_context}&default_feed_filter_option={?default_feed_filter_option},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fan_expression/?fan_type={fan_type}&creator_id={creator_id}&entrypoint={entrypoint},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fan_hub,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fan_hub/,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fan_hub/{#profile_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fan_hub/{#profile_id}?entry_point={?entry_point}&post_id={?post_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fan_hub?entry_point={?entry_point}&post_id={?post_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fan_hub_buzz_topic?topic_id={topic_id}&profile_id={profile_id}&creator_name={?creator_name}&excluded_post_id={?excluded_post_id}&entry_point={?entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fan_recognition_customization/?creator_id={creator_id}&entry_point={entry_point}&recognition_type={recognition_type}&challenge_id={?challenge_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fan_recognition_new_fan_list/?creator_id={creator_id}&entry_point={entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fan_recognition_new_fan_list/?creator_id={creator_id}&entry_point={entry_point}&recognition_type={recognition_type},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://fandom_settings,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://fandom_settings/?entry_point={?entry_point}&feature={?feature}&obj_id={?obj_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fantasy_games,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fantasy_games/{VALUE},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://favorites_feed,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb-answers/{query},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb-answers/{query}?param={?value},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb_agentic_reengagement,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb_event_creation,No
+fb,"Reels, Watch, Video & Media",fb://fb_event_creation?ref_module={?ref_module}&ref_mechanism={?ref_mechanism}&page_id={?page_id}&group_id={?group_id}&live_tour_listing_id={?live_tour_listing_id}&creation_entrypoint={?creation_entrypoint}&event_creator={?event_creator}&link_existing_chat_id={?link_existing_chat_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb_explore,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb_open_iab_with_offer?offer_id={?offerid}&url={?url}&ad_id={?adid}&ad_impression_token={?adimpressiontoken}&entry_point={?entrypoint},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fb_open_iab_with_store_locations?store_profile_id={?storeprofileid}&url={?url}&ad_id={?adid}&ad_impression_token={?adimpressiontoken}&entry_point={?entrypoint},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb_partnership_ads,No
+fb,"Marketplace, Shopping & Meta Pay",fb://fb_payout_hub?financial_entity_id={financial_entity_id},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_photos_picker,No
+fb,"Marketplace, Shopping & Meta Pay",fb://fb_shop_everything_buyer_journey/native_pdp?pid={?pid},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://fb_shop_referral/?referral_id={referral_id}&sender_id={sender_id},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/interest_topic_setting,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fb_shorts/profile/liked?profile_id={profile_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fb_shorts/profile/saved?profile_id={profile_id}&profile_type={profile_type},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer,No
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?source={fb_shorts_viewer_launch_source},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&show_hashtag_nux={fb_shorts_show_hashtag_nux},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&audio_track_language={?audio_track_language}&show_translate_promo_sheet={?show_translate_promo_sheet},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&collection_id={fb_shorts_viewer_collection_id}&marketplace_entrypoint={fb_shorts_viewer_marketplace_entrypoint},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&comment_id={?comment_id}&open_like_count={!open_like_count,Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&comment_id={comment_id}&video_type={video_type},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&fb_shorts_message_owner_id_from_reshared_uri={fb_shorts_message_owner_id_from_reshared_uri}&fb_shorts_sender_id_from_reshared_uri={fb_shorts_sender_id_from_reshared_uri}&fb_shorts_sender_name_from_reshared_uri={fb_shorts_sender_name_from_reshared_uri}&fb_shorts_sender_profile_url_from_reshared_uri={fb_shorts_sender_profile_url_from_reshared_uri}&fb_shorts_message_text_from_reshared_uri={fb_shorts_message_text_from_reshared_uri}&fb_shorts_source_type_from_reshared_uri={fb_shorts_source_type_from_reshared_uri},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&fb_shorts_message_owner_id_from_reshared_uri={fb_shorts_message_owner_id_from_reshared_uri}&fb_shorts_sender_id_from_reshared_uri={fb_shorts_sender_id_from_reshared_uri}&fb_shorts_sender_name_from_reshared_uri={fb_shorts_sender_name_from_reshared_uri}&fb_shorts_sender_profile_url_from_reshared_uri={fb_shorts_sender_profile_url_from_reshared_uri}&fb_shorts_message_text_from_reshared_uri={fb_shorts_message_text_from_reshared_uri}&fb_shorts_source_type_from_reshared_uri={fb_shorts_source_type_from_reshared_uri}&fb_shorts_message_id_from_reshared_uri={fb_shorts_message_id_from_reshared_uri},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&fb_shorts_sender_id_from_reshared_uri={fb_shorts_sender_id_from_reshared_uri}&fb_shorts_sender_name_from_reshared_uri={fb_shorts_sender_name_from_reshared_uri}&fb_shorts_sender_profile_url_from_reshared_uri={fb_shorts_sender_profile_url_from_reshared_uri}&fb_shorts_message_text_from_reshared_uri={fb_shorts_message_text_from_reshared_uri}&fb_shorts_source_type_from_reshared_uri={fb_shorts_source_type_from_reshared_uri},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&notif_type={notif_type},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&open_report={!open_report,Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&r2d2_news={r2d2_news_string},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&search_query={?search_query}&search_appending_video_ids={?search_appending_video_ids}&enable_browse_query_chaining={?enable_browse_query_chaining}&search_starting_idx={?search_starting_idx}&paginate_over_appending_videos_only={?paginate_over_appending_videos_only}&include_non_videos={?include_non_videos},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_type={video_type},Yes
+fb,"Reels, Watch, Video & Media",fb://fb_shorts/viewer?video_type={video_type}&source={fb_shorts_viewer_launch_source},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb_universal_cart/cart?entry_point={entry_point}&merchant_key={?merchant_key}&ad_id={?ad_id}&ad_tracking_token={?ad_tracking_token}&referral_surface={?referral_surface}&referral_code={?referral_code},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb_verification,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fb_verification?utm_source={?utm_source}&utm_medium={?utm_medium}&utm_content={?utm_content},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://fbchannels/create,No
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://fbm_inbox_reachability_controls,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fbmessaging/inbox/?user_id={?#user_id}&thread_id={?#thread_id}&recipient_id={?#recipient_id}&medium={?medium}&notif_type={?notif_type}&notif_id={?notif_id}&refsrc={?refsrc},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://fbmessaging/inbox_or_messenger/?entry_point={?entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fbnotes,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://fbnotes/?n_i={?n_i}&n_tt={?n_tt}&n_ct={?#n_ct}&n_et={?n_et}&n_v={?n_v}&n_ty={?n_ty}&n_on={?n_on}&n_opu={?n_opu}&n_an={?n_an}&n_st={?n_st}&n_aai={?n_aai}&n_aci={?n_aci}&n_mvi={?n_mvi}&n_dp={?n_dp}&n_mst={?#n_mst}&n_uep={?n_uep}&n_pdu={?n_pdu}&n_upt={?n_upt}&composer_entry_surface={?composer_entry_surface}&ats_ranking_tracking_string={?ats_ranking_tracking_string}&n_mcaac={?n_mcaac},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://fbpay_incentive_details?entity_id={entity_id}&entry_point={?entry_point}&is_terms_open={?is_terms_open},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://fbpay_incentive_home,No
+fb,"Marketplace, Shopping & Meta Pay",fb://fbpay_incentive_home?entry_point={?entry_point},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://feather/{page_id}?entry_point={entry_point}&question_tracking_id={?question_tracking_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed/,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed/?luna_deep_dive_voice={!luna_deep_dive_voice}&snapshot_id={#snapshot_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed/scroll_to_top,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_awesomizer,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_awesomizer/following,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_awesomizer/see_first,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_awesomizer/unfollowed,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_preferences,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_preferences/reconnect,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_preferences/reconnect?entry_session_id={entry_session_id}&entry_point_string={entry_point_string}&is_control_panel_entry={!is_control_panel_entry,Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://feed_preferences/snooze_profiles,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://feed_preferences/snooze_profiles?entry_session_id={entry_session_id}&entry_point_string={entry_point_string}&is_control_panel_entry={!is_control_panel_entry,Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_preferences/unfollow,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_preferences/unfollow?entry_session_id={entry_session_id}&entry_point_string={entry_point_string}&is_control_panel_entry={!is_control_panel_entry,Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_story_permalink_non_encoded_id/{id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_story_permalink_non_encoded_id/{id}?open_reactors_list={?open_reactors_list},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feed_switcher?switcher_item_id={switcher_item_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://feeds?source={feeds_entry_point},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://findfriends/learn_more,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://findfriends?ci_flow={ci_flow,Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://follower_settings_change,No
+fb,Groups & Communities (Hội Nhóm),fb://forum,No
+fb,Groups & Communities (Hội Nhóm),fb://forum/group_admin_ai_assistant,No
+fb,Groups & Communities (Hội Nhóm),fb://forum/group_ask,No
+fb,Groups & Communities (Hội Nhóm),fb://forum_interstitial,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://free_suite_ads/create_post/get_messages?pageID={pageID},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://friends/center,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://friends/center?source_ref={?source_ref}&fc_tab={?fc_tab}&user_id={?user_id}&name={?name}&profile_pic={?profile_pic}&attachment={?attachment},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://friends/home,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://friends/home?source_ref={?source_ref}&content_hint_type={?content_hint_type}&content_hint_id={?content_hint_id}&target_plink={?target_plink}&ref_plink={?ref_plink}&sort_order={?sort_order}&hoisted_ifu={?hoisted_ifu},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://friends/new_user_promotion,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://friends/requests,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://friends/requests_tab,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fubs_subscribe/{vanity},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fubs_subscribe/{vanity}?entrypoint_surface={?entrypoint_surface},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video/?page_id={page_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://fullscreen_video/?user_id={user_id},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video/{video_id}?loop={loop},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video/{video_id}?loop={loop}&playerOrigin={playerOrigin}&playerSuborigin={playerSuborigin},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video/{video_id}?loop={loop}&playerOrigin={playerOrigin}&playerSuborigin={playerSuborigin}&externalLogType={externalLogType}&externalLogId={externalLogId},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video/{video_id}?loop={loop}&playerOrigin={playerOrigin}&playerSuborigin={playerSuborigin}&videoAfterCursor={videoAfterCursor}&videoChannelID={videoChannelID},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video/{video_id}?loop={loop}&playerOrigin={playerOrigin}&playerSuborigin={playerSuborigin}&videoChannelID={videoChannelID},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video/{video_id}?loop={loop}&playerTabEntrypoint={playerTabEntrypoint},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video/{video_id}?lsProductId={lsProductId},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video_redirect/{video_id},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video_redirect/{video_id}?threadid={thread_id},Yes
+fb,"Reels, Watch, Video & Media",fb://fullscreen_video_redirect/{video_id}?time_start={time_start},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fundraiser_beneficiary_other_input,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fundraiser_beneficiary_search/?launch_state={launch_state}&beneficiary_type={beneficiary_type}&source={?source}&promotional_source={?promotional_source}&giving_moment={?giving_moment},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fundraiser_category_selector,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fundraiser_country_selector,No
+fb,"Reels, Watch, Video & Media",fb://fundraiser_creation_suggested_cover_photo,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fundraiser_currency_selector,No
+fb,"Reels, Watch, Video & Media",fb://fundraiser_for_story_create/?story_id={story_id}&source={?source}&promotional_source={?promotional_source}&giving_moment={?giving_moment},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://fundraiser_submitted/?fundraiser_campaign_id={fundraiser_campaign_id}&should_show_share_upsell_after_outro={!should_show_share_upsell_after_outro}&parent_container_id={?parent_container_id}&should_launch_fundraiser_after_outro={!should_launch_fundraiser_after_outro},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://fxcal/ac_home,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://fxcal/settings/individual_setting?entrypoint={entrypoint}&node_identifier={node_identifier},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://fxcal/settings?entrypoint={?entrypoint},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://games,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://gaming,No
+fb,"Reels, Watch, Video & Media",fb://gaming/?video_id={?video_id}&entry_point={?entry_point}&init_tab={?init_tab}&pivot={?pivot}&player_origin={?player_origin}&player_sub_origin={?player_sub_origin}&intentional_pathing={?intentional_pathing}&instant_game_app_id={?instant_game_app_id}&should_open_video_for_ip={?should_open_video_for_ip}&pathing_trigger={?pathing_trigger},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://gaming/play/{instant_game_app_id}/{?instant_game_context_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://gaming/{?vanity},Yes
+fb,"Reels, Watch, Video & Media",fb://gaming/{?vanity}/?injected_hero_video_id={?injected_hero_video_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://gaming_profile_onboarding/?status={status},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://garage_sale,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://gdpr_consents,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://gdpr_consents?version={?version}&extra_data={?extra_data},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://gemstone,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://gemstone?entry_point={?entry_point}&home_redirect={?home_redirect}&target_user_id={?target_user_id},Yes
+fb,Generative AI & Meta Bots,fb://gen_ai_characters,No
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://gen_ai_chat/?as_bottom_sheet=0,Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://gen_ai_chat/?as_bottom_sheet=1,Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://gen_ai_chat/?as_bottom_sheet=1&opens_keyboard=1&null_state_type=3&hide_x_button_from_bottom_sheet=1,Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://gen_ai_chat/?as_bottom_sheet=1&opens_keyboard=1&null_state_type=4&hide_x_button_from_bottom_sheet=1,Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://gen_ai_chat/?bot_id={#?bot_id}&as_bottom_sheet={#?as_bottom_sheet}&launch_multi_modal={?launch_multi_modal}&search_string={?search_string}&context_token={?context_token}&product_type={?product_type}&entry_point={?entry_point}&opens_keyboard={?opens_keyboard}&prefilled_composer_text={?prefilled_composer_text}&nux_type_override={?nux_type_override}&enable_null_state={?enable_null_state}&admin_message_string={?admin_message_string}&null_state_type={#?null_state_type}&thread_session_id={?thread_session_id}&referrer_session_id={?referrer_session_id}&prompt_type={?prompt_type}&bottom_sheet_view_mode={?bottom_sheet_view_mode}&launch_in_voice_mode={?launch_in_voice_mode}&bottom_sheet_height_percentage={?bottom_sheet_height_percentage}&bottom_sheet_expandable_height_offset_percentage={?bottom_sheet_expandable_height_offset_percentage}&enable_article_view={?enable_article_view}&hide_previous_messages={?hide_previous_messages}&position_prompt_to_top={?position_prompt_to_top}&disable_bubble_for_user_text_message={?disable_bubble_for_user_text_message}&suggested_prompt_type={?suggested_prompt_type}&disable_admin_message={?disable_admin_message}&render_ai_response_in_full_width={?render_ai_response_in_full_width}&bottom_sheet_slide_handle_offset_dp={?bottom_sheet_slide_handle_offset_dp}&hide_composer_bar_initially={?hide_composer_bar_initially}&hide_navbar_info_button={?hide_navbar_info_button}&enable_expandable_text={?enable_expandable_text}&collapsed_message_max_chars={?collapsed_message_max_chars}&collapsed_message_truncate_strategy_type={?collapsed_message_truncate_strategy_type}&disable_dragging_in_bottom_sheet={?disable_dragging_in_bottom_sheet}&collapsed_message_max_lines={?collapsed_message_max_lines}&collapsed_message_click_anywhere_to_expand={?collapsed_message_click_anywhere_to_expand}&fb_gen_ai_null_state_birthday_recipient_ids={?fb_gen_ai_null_state_birthday_recipient_ids}&hide_x_button_from_bottom_sheet={?hide_x_button_from_bottom_sheet}&fb_gen_ai_disable_expand_text_on_load={?fb_gen_ai_disable_expand_text_on_load}&switch_to_voice_on_active_voice_session={?switch_to_voice_on_active_voice_session}&enable_keyboard_visibility_listener={?enable_keyboard_visibility_listener}&prompt_session_id={?prompt_session_id}&fb_gen_ai_otid_for_admin_message={#?fb_gen_ai_otid_for_admin_message}&is_business_assistant_for_nux={?is_business_assistant_for_nux},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://gen_ai_inbox,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://get_gift_card_puchases,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://getquote/{#com.facebook.katana.profile.id}/form_builder,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://gg,No
+fb,"Reels, Watch, Video & Media",fb://gg/?video_id={?video_id}&entry_point={?entry_point}&init_tab={?init_tab}&pivot={?pivot}&player_origin={?player_origin}&player_sub_origin={?player_sub_origin}&intentional_pathing={?intentional_pathing}&instant_game_app_id={?instant_game_app_id}&should_open_video_for_ip={?should_open_video_for_ip}&pathing_trigger={?pathing_trigger},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://gg/play/{instant_game_app_id}/{?instant_game_context_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://gg/{?vanity},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://gltf_fullscreen,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://goodwill_ar?effect_id={#effect_id}&campaign_id={#?campaign_id}&ar_qp_type={?ar_qp_type},Yes
+fb,"Reels, Watch, Video & Media",fb://goodwillinspirationscamera/?effectID={?effect_id}&reason={reason}&campaignID={campaign_id}&bucketType={bucket_type}&title={title}&iconImageUrl={icon_image_url}&isSelected={is_selected}&cameraRoll={camera_roll},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://group/invitepagefans/{group_feed_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://group/invitepagefans/{group_feed_id}?page_id={?page_id}&source={?source},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://group/members/search/{group_feed_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://group/{group_feed_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://group/{group_feed_id}?group_view_referrer={?group_view_referrer}&action={?action}&page_id={?page_id}&group_tip_id={?group_tip_id}&content_view_type={?content_view_type}&group_feed_hoisted_story_ids={?group_feed_hoisted_story_ids}&group_hoisted_section_header_type={?group_hoisted_section_header_type}&notif_type={?notif_type}&exp={?exp}&share_tracking_id={?share_tracking_id}&should_show_admin_promotion_process={?!should_show_admin_promotion_process}&invite_chat_thread_id={?invite_chat_thread_id}&ref={?ref}&group_feed_hoisted_comment_ids={?group_feed_hoisted_comment_ids}&open_related_groups_component_on_land={?!open_related_groups_component_on_land},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groupAdminAssistant/?group_id={group_feed_id}&active_category={?groups_admin_assist_active_category}&promoted_action_type={?groups_admin_assist_promoted_action_type}&home_load_identifier={?groups_admin_assist_home_load_identifier}&source={?source},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://groupMembership?group_feed_id={group_feed_id}&group_admin_type={?group_admin_type}&group_visibility={?group_visibility}&is_viewer_joined={?!is_viewer_joined}&is_viewer_expert={?!is_viewer_expert}&is_sub_group={?!is_sub_group}&section_type={?section_type}&section_extra_info={?section_extra_info}&section_badge_name={?section_badge_name}&badge_award_type={?badge_award_type}&selected_user_ids={?selected_user_ids}&should_enable_new_admin_member_list={?!should_enable_new_admin_member_list}&source={?source},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groupNotificationsSetting?group_feed_id={group_feed_id}&group_viewer_admin_type={?group_viewer_admin_type}&group_name={?group_name},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://group_members_list?group_feed_id={?group_feed_id}&groups_members_tab_section_name={?groups_members_tab_section_name}&tag_type={?tag_type}&badge_name={?badge_name}&group_admin_type={?group_admin_type}&role_name={?role_name},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://group_subfeed?subfeed_id={subfeed_id}&entry_point={?entry_point}&hoisted_post_ids={?hoisted_post_ids}&hoisted_post_source={?hoisted_post_source},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/add_member/?group_id={group_feed_id}&source={?source}&display_categorized={?display_categorized}&initial_filter={?initial_filter},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/admin_activity_log?group_feed_id={group_feed_id}&admin_activity_log_source={admin_activity_log_source}&activity_category_type_name={?activity_category_type_name}&activity_category_type={?activity_category_type}&subject_name={?subject_name}&subject_id={?subject_id}&actor_name={?actor_name}&actor_id={?actor_id}&start_date={?#start_date}&end_date={?#end_date}&with_note={?!with_note}&automatic_actions={?!groups_activity_log_automated_preset}&moderation_action={?moderation_action}&moderation_action_name={?moderation_action_name},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/admin_activity_log_details/?group_feed_id={group_feed_id}&group_admin_activity_id={group_admin_activity_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/admin_home_surface?group_feed_id={group_feed_id}&source={source},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/admin_queues?group_feed_id={group_feed_id}&queue={groups_unified_admin_home_sub_nav_selected_tab}&analytics_tag={analytics_tag}&source={?source}&hoisted_content_ids={?hoisted_content_ids},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/album?group_feed_id={group_feed_id}&group_name={group_name}&extra_album_id={extra_album_id}&extra_album_composer_entry_point_name={extra_album_composer_entry_point_name},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/albums?group_id={group_feed_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/buysell?group_feed_id={group_feed_id}&content_view={?group_mall_content_view_title},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/category/{category_name},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/chats?group_id={group_feed_id}&thread_id={thread_id}&messenger_entry_point_tag={?messenger_entry_point_tag}&notif_id={?notif_id}&notif_type={?notif_type},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/content_chaining?group_id={group_feed_id}&post_ids={group_content_chaining_post_ids},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/create,No
+fb,Groups & Communities (Hội Nhóm),fb://groups/create?ref={?ref}&page_id={?page_id}&group_visibility={?group_visibility}&group_name={?group_name}&group_members={?group_members}&event_id={?event_id},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/discover,No
+fb,Groups & Communities (Hội Nhóm),fb://groups/discover/categories,No
+fb,Groups & Communities (Hội Nhóm),fb://groups/discover/category?id={category_id},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/discover/pivot?id={pivot_id},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/discover/tag?id={tag_id},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/discover/wizard,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/files/{group_feed_id},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/group_updates_messages?thread_id={thread_id}&parent_surface={?parent_surface}&is_appswitch={?#is_appswitch},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/invite_experts?group_id={group_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/invite_via_link_settings?group_id={?group_feed_id},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/onboarding/?group_id={group_id}&newly_created={?newly_created}&source={?source}&wizard_type={?wizard_type}&can_viewer_see_forum_follow_admin_experience={?can_viewer_see_forum_follow_admin_experience},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/pendingposts/?group_feed_id={group_feed_id}&hoisted_post_id={hoisted_post_id}&group_is_viewer_admin={!group_is_viewer_admin},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/pendingposts/?group_feed_id={group_feed_id}&native_group_pending_post_enabled={!native_group_pending_post_enabled}&group_is_viewer_admin={!group_is_viewer_admin}&groups_unified_admin_home_sub_nav_enabled={?!groups_unified_admin_home_sub_nav_enabled}&groups_admin_queue_parameters={?groups_admin_queue_parameters},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/pendingposts/{group_feed_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/photos/{group_feed_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://groups/photos?group_feed_id={group_feed_id}&profileId={?profileId}&pandora_instance_id={?pandora_instance_id}&show_composer_in_fragment={?!show_composer_in_fragment},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/privacy_settings/?group_id={group_feed_id},Yes
+fb,"Reels, Watch, Video & Media",fb://groups/reels?group_id={group_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/requests/{group_feed_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/requests/{group_feed_id}?groups_unified_admin_home_sub_nav_enabled={?!groups_unified_admin_home_sub_nav_enabled},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/ruleenforcement/member/?group_feedback_id={group_feedback_id}&group_feed_id={group_feed_id}&group_rule_enforcement_member_view_title={group_rule_enforcement_member_view_title},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/rules?group_feed_id={group_feed_id}&rule_id={?rule_id}&is_from_highlights={?!is_from_highlights}&surface={?surface},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/see_all_members?group_feed_id={group_feed_id}&section_type={?section_type}&group_admin_type={?group_admin_type},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/suggestions,No
+fb,Groups & Communities (Hội Nhóm),fb://groups/system_admod_messages?thread_id={thread_id},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab,No
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab/discover,No
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab/discover/categories,No
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab/discover/category?id={category_id},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab/discover?source={?source}&promotion_theme={?promotion_theme}&dest_path={?dest_path}&from_ad={?from_ad},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab/hoisted_nt?id={id},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab/list,No
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab/wizard,No
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab/{pivot_type},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab/{pivot_type}?config={?config}&nav_config={?nav_config}&analytics_source={?analytics_source}&promotion_theme={?promotion_theme}&hoisted_units_config={?hoisted_units_config}&landing_config={?landing_config}&category_id={?category_id}&from_notif={?from_notif}&group_id={?group_id}&hoisted_unit_type={?hoisted_unit_type}&qp_conversion_token={?qp_conversion_token},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups/tab?config={?config}&nav_config={?nav_config}&analytics_source={?analytics_source}&promotion_theme={?promotion_theme}&hoisted_units_config={?hoisted_units_config}&landing_config={?landing_config}&category_id={?category_id}&from_notif={?from_notif}&group_id={?group_id}&hoisted_unit_type={?hoisted_unit_type},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/topics?group_feed_id={group_feed_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://groups/videos/?group_id={group_feed_id}&video_id={video_id}&group_name={group_name},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://groupsPendingParticipants/?group_feed_id={group_feed_id}&hoisted_user_ids={?hoisted_user_ids}&groups_participant_queue_source={?groups_participant_queue_source},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://groupsPendingParticipants/?group_feed_id={group_feed_id}&hoisted_user_ids={?hoisted_user_ids}&groups_participant_queue_source={?groups_participant_queue_source}&groups_unified_admin_home_sub_nav_enabled={?!groups_unified_admin_home_sub_nav_enabled},Yes
+fb,Groups & Communities (Hội Nhóm),fb://groups_discovery,No
+fb,Groups & Communities (Hội Nhóm),fb://groups_targeted_tab,No
+fb,Groups & Communities (Hội Nhóm),fb://groups_targeted_tab/wizard,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://hashtag/{hashtag_feed_hashtag},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://hashtag/{hashtag_feed_hashtag}?name={hashtag_feed_title},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://hashtag/{hashtag_feed_hashtag}?name={hashtag_feed_title}&id={hashtag_feed_id},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://hatch?link_to_open=hatch%3A%2F%2Fchat,Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://hatch?link_to_open=hatch%3A%2F%2Fchat&utm_source=test&utm_campaign=debug&utm_medium=internal,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://hatch?link_to_open={?link_to_open}&entrypoint={?entrypoint}&utm_medium={?utm_medium}&utm_campaign={?utm_campaign}&utm_source={?utm_source}&entry_context_token={?entry_context_token},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://horizon/?payload={?payload},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://horizon_world_invitation_sharing/?url={?url}&message={?message}&quest_id={?quest_id}&avatar_session_id={?avatar_session_id}&referrer_source={?referrer_source},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://hub_order_details?order_id={?order_id}&referrer_surface={?referrer_surface}&order_item_ids={?order_item_ids}&additional_logging_data={?additional_logging_data}&deeplink_destination={?deeplink_destination}&deeplink_destination_params={?deeplink_destination_params},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://hzw_launcher/?world_id={?world_id}&referrer={referrer}&intent_id={?intent_id}&hz_session_linking_id={?hz_session_linking_id}&hwsh={?hwsh}&target_destination={?target_destination}&custom_deeplink_uri={?custom_deeplink_uri},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://hzw_launcher/?world_id={?world_id}&referrer={referrer}&referral_source={referral_source}&hz_session_linking_id={?hz_session_linking_id}&target_destination={?target_destination},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://iap/pdp?product_id={product_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://imagine_me,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://imagine_me?destination={?destination},Yes
+fb,"Reels, Watch, Video & Media",fb://immersive_post?story_id={story_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://in_app_webview/?initial_path={initial_path}&completion_path={completion_path},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://inspiration_settings,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://inspirationscamera/?effectID={?effect_id}&reason={?reason}&shareActorID={?share_actor_id}&shareTargetID={?share_target_id}&targetName={?share_target_name}&targetProfileUri={?share_target_profile_uri}&audienceTargetType={?audience_target_type}&shouldDisplayCameraRollEffectTooltip={?should_display_camera_roll_effect_tooltip}&categoryID={?category_id}&inspiration_post_action={?inspiration_post_action}&cryptoHash={?crypto_hash}&cameraCaptureMode={?camera_capture_mode}&revisionID={?revision_id}&cameraShareArguments={?camera_share_arguments}&preselectedStickerType={?preselected_sticker_type}&devicePosition={?device_position}&audioId={?audio_id}&audioType={?audio_type}&entrySurface={?entry_surface}&shouldLaunchReelsCamera={?!should_launch_reels_camera}&autoCreatedReel={?!auto_created_reel}&arGameID={?ar_game_id}&arGamePayload={?ar_game_payload}&isArGameEffect={?!is_ar_game_effect}&arGameCameraType={?ar_game_camera_type},Yes
+fb,"Reels, Watch, Video & Media",fb://inspirationscamerasavedaudio,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://instagram,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://instagram/?ref={?ref},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://instant_experiences?ix_params={ix_params}&hash={hash},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://instant_games_hub,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://instantgames/promotion?type={?promotion_type}&entrypoint={?entry_point},Yes
+fb,"Reels, Watch, Video & Media",fb://instantgames?source={source}&appid={app_id}&payload={?entry_point_data}&chaining={?!chaining_activity}&tab_redirection={?!tab_redirection}&open_tab_on_close={?!open_tab_on_close}&open_play_pivot_tab_on_close={?!open_play_pivot_tab_on_close}&game_type={?#game_type}&cloud_binary_id={?cloud_binary_id}&message_id={?invitation_id}&entrypoint_video_id={?entrypoint_video_id}&custom_update_id={?custom_update_id}&content_identifier={?content_identifer}&click_identifier={?click_identifer}&cgreferral={?cgreferral}&entrypoint_feature={?entrypoint_feature}&gd_impression_id={?gd_impression_id}&play_style={?play_style}&tracking_id={?tracking_id},Yes
+fb,"Reels, Watch, Video & Media",fb://instantgames?source={source}&appid={app_id}&payload={?entry_point_data}&context_type={source_context}&context_id={source_id}&chaining={?!chaining_activity}&tab_redirection={?!tab_redirection}&open_tab_on_close={?!open_tab_on_close}&open_play_pivot_tab_on_close={?!open_play_pivot_tab_on_close}&game_type={?#game_type}&cloud_binary_id={?cloud_binary_id}&message_id={?invitation_id}&entrypoint_video_id={?entrypoint_video_id}&custom_update_id={?custom_update_id}&content_identifier={?content_identifer}&click_identifier={?click_identifer}&cgreferral={?cgreferral}&entrypoint_feature={?entrypoint_feature}&gd_impression_id={?gd_impression_id}&play_style={?play_style}&tracking_id={?tracking_id},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://instantgamesshortcut?appid={app_id}&payload={?entry_point_data}&game_type={?#game_type},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://internal_settings,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://jobs_v2,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://jobs_v2?param={?param},Yes
+fb,"Reels, Watch, Video & Media",fb://language_in_videos_picker,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://language_switch,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://lead_gen/?lead_gen_data_id={lead_gen_data_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://lead_gen/?lead_gen_data_id={lead_gen_data_id}&PROPS={props},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://lead_gen/?lead_gen_data_id={lead_gen_data_id}&REFERRER={lead_gen_referrer},Yes
+fb,"Reels, Watch, Video & Media",fb://lead_gen/?lead_gen_data_id={lead_gen_data_id}&ad_id={ad_id}&source={source}&cover_photo_url={?cover_photo_url},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://lead_gen/leads/?page_id={page_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://leaderboard_main_fragment/?owner_id={owner_id}&leaderboard_type={leaderboard_type}&entry_point={entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://leaderboard_main_fragment/?owner_id={owner_id}&leaderboard_type={leaderboard_type}&entry_point={entry_point}&start_tab_index={start_tab_index},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://legacy_app_settings,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://legacy_app_settings/autoplay,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://legacy_app_settings/autoplay/?autoplay_value={autoplay_value},Yes
+fb,"Reels, Watch, Video & Media",fb://live,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://live?text={?text}&format={?format}&format_id={?format_id}&formats_ranking={?formats_ranking}&target_type={?target_type}&target_id={?target_id}&source_type={?source_type}&session_id={?session_id}&target_name={?target_name}&target_profile_uri={?target_profile_uri}&is_live_audio_room_v2={?!is_live_audio_room_v2},Yes
+fb,Groups & Communities (Hội Nhóm),fb://local_awareness_promotion/?page_id={page_id}&boost_id={?boost_id}&source={?source}&referral={?referral}&restore_saved_settings={?restore_saved_settings}&coupon_promotion_group_id={?coupon_promotion_group_id}&ad_account_id={?ad_account_id}&scroll_to_section={?scroll_to_section}&request_data={?request_data}&show_native={?!show_native}&target_id={?target_id}&so={?so}&draft_id={?draft_id}&entry_point_details={?entry_point_details},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://local_guide/{city}/{category},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://local_guide/{city}/{category}?param={?value},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://local_payment_method/appswitch/?session_context={?session_context}&product_token={?product_token}&upl_session_id={?upl_session_id}&merchantReference={?merchant_reference}&resultCode={?result_code}&type={?type}&redirectResult={?redirect_result}&authCode={?auth_code}&authStatus={?auth_status},Yes
+fb,"Reels, Watch, Video & Media",fb://local_split_screen?story_id={story_id}&story_type={story_type}&page_ids={page_ids},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://location_settings,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://location_settings?source={source},Yes
+fb,Generative AI & Meta Bots,fb://location_settings_review_prompt_q3lc,No
+fb,Generative AI & Meta Bots,fb://location_settings_review_prompt_q3lc?source={?source}&entry_point={?entry_point}&,Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://location_settings_xplat_container,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://location_settings_xplat_container?entry_point={entry_point},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://location_settings_xplat_container?source={source},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://logged_out_push_interstitial,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://loginapprovalspush,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://logout_activity,No
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://luna_chat,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://luna_scheduled,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://luna_top_updates,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://lwi_event_selector?page_id={page_id}&source_location={source_location},Yes
+fb,"Reels, Watch, Video & Media",fb://lwi_ig_media_selector?page_id={page_id}&source_location={source_location},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://lwi_job_selector?page_id={page_id}&source_location={source_location},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://lwi_post_selector?page_id={page_id}&source_location={source_location}&so={?so},Yes
+fb,"Reels, Watch, Video & Media",fb://lwi_report_a_problem/?page_id={page_id}&boost_id={?boost_id}&graphql_story_id={?graphql_story_id}&product={?product}&ad_account_id={?ad_account_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://made_for_you,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://main_tab,No
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://maisa_native_chat,No
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://maisa_native_existing_thread,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://management_activity_log/admin_activity_log?group_feed_id={group_feed_id}&admin_activity_log_source={admin_activity_log_source}&activity_category_type_name={?activity_category_type_name}&activity_category_type={?activity_category_type}&subject_name={?subject_name}&subject_id={?subject_id}&actor_name={?actor_name}&actor_id={?actor_id}&start_date={?#start_date}&end_date={?#end_date}&with_note={?!with_note}&automatic_actions={?!groups_activity_log_automated_preset}&moderation_action={?moderation_action}&moderation_action_name={?moderation_action_name},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://maps,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://marketing_deeplink/facebook?deeplink={deeplink}&ad_account_id={?ad_account_id}&ad_id={?ad_id}&user_id={?user_id}&boost_id={?boost_id}&page_id={?page_id}&extra={?extra}&id={?id}&qualifier={?qualifier}&referral_component={?referral_component}&referral_surface={?referral_surface}&target={?target}&lead_source={?lead_source}&entry_point={?entry_point}&story_id={?story_id}&products={?products}&source_location={?source_location},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://marketplace,No
+fb,"Marketplace, Shopping & Meta Pay",fb://marketplace?param={?param},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://marketplace_bulk_add_shipping,No
+fb,"Marketplace, Shopping & Meta Pay",fb://marketplace_ecomm_shopping_cart/?referralCode=shops_nav_bar&fb_hidesTabBar_POST_IN_IOS_NAVIGATION_BEFORE_USING=1&refType=63,Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://marketplace_idv_verification_redirect,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://marketplace_jobs_seeker_profile,No
+fb,Groups & Communities (Hội Nhóm),fb://marketplace_shipping_community_campaign_landing_page,No
+fb,"Reels, Watch, Video & Media",fb://media_settings/?source=bookmarks,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://memories_home,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://memories_home/?source={source,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://memu_onboarding,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://messaging_e2ee_fallback/?prefilled_text={?prefilled_text}&thread_id={?thread_id}&share_url={?share_url}&mib_entry_point={?mib_entry_point}&request_type={?request_type}&style={?style}&product_type={?product_type}&message_send_entry_point={?message_send_entry_point}&marketplace_communication_id={?marketplace_communication_id}&participant_id={?participant_id}&force_nux_ux={?!force_nux_ux}&recipient_name={?recipient_name},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://messaging_thread,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://messaging_thread/?page_id={page_id}&token={token},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://messenger_kids/deeplink,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://messenger_kids/deeplink/{target},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://messenger_kids/deeplink/{target}?dummy={?dummy},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://messenger_kids/deeplink?dummy={?dummy},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://messenger_tab,No
+fb,Generative AI & Meta Bots,fb://meta_ai_answer_sheet,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://meta_credit_funding_response?result={?result}&amount={?amount}&bonus={?bonus},Yes
+fb,"Reels, Watch, Video & Media",fb://meta_gallery/media_picker?surface={surface}&folder={folder}&albumType={albumType}&entryPoint={?entryPoint},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://meta_subscriptions?entrypoint={entrypoint},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://meta_subscriptions?entrypoint={entrypoint}&deeplink_params={deeplink_params},Yes
+fb,Generative AI & Meta Bots,fb://meta_support_assistant,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://meta_verified?entrypoint={entrypoint},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://meta_verified?entrypoint={entrypoint}&deeplink_params={deeplink_params},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://mfb-start-now,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://mib_active_status_setting,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://mini_feed/?token={token}&title={title}&render_location={render_location}&feedback_location={feedback_location}&am={?am}&source_type={?source_type}&disable_prefetch={?!disable_prefetch}&is_from_jewel_chaining={?is_from_jewel_chaining}&jewel_chaining_secondary_title={?jewel_chaining_secondary_title}&comment_id={?comment_id}&subtitle={?subtitle}&se={?se},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://mle_create,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://mobile_center,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://mobile_center_after_hping,No
+fb,Groups & Communities (Hội Nhóm),fb://moderationAssistant/?target_id={target_id}&active_category={?groups_admin_assist_active_category}&promoted_action_type={?groups_admin_assist_promoted_action_type}&home_load_identifier={?groups_admin_assist_home_load_identifier}&source={?source},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://muse_thread,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://native_post,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://native_post/{id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://native_post/{id}?birthday_wishes_surface={birthday_wishes_surface}&entry_point={?entry_point}&post_id={?post_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://native_post/{id}?comment_id={?relevant_comment_id}&default_comment_ordering={?default_comment_ordering}&entry_point={?entry_point}&story_cache_id={?story_cache_id}&show_keyboard_on_first_load={?show_keyboard_on_first_load}&prefilled_comment_composer_text={?prefilled_comment_composer_text},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://native_post/{id}?content_discovery_session_id={?content_discovery_session_id},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://native_post/{id}?fallback_url={extra_fallback_url},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://native_template_shell,No
+fb,"Reels, Watch, Video & Media",fb://native_template_shell/?id={?id}&search={?!search}&title={?title}&mode={?mode}&custom_story_render_location={?custom_story_render_location}&hide_right_header_view={?!hide_right_header_view},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://nativename,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://nativesso,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://neo/fallback?target=friending&fbid={fbid},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://neo/fallback?target=friending&fbid={fbid}&referrer={referrer},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://neo/fallback?target=hub,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://neo/fallback?target=hub&referrer={referrer},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://neo/fallback?target=profile&fbid={fbid},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://neo/fallback?target=profile&fbid={fbid}&focus_section={focus_section},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://neo/fallback?target=profile&fbid={fbid}&referrer={referrer},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://neo/fallback?target=profile&fbid={fbid}&referrer={referrer}&focus_section={focus_section},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://newContactPoint,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://news,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://notif_redirect?is_small={!is_small},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://notification_settings,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://notification_settings_add_contact_point?contact_type={contact_type},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://notification_settings_confirm_contact_point,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://notification_settings_email,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://notification_settings_phone_number,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://notification_settings_push_and_sounds,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://notifications,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://notifications_tab,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://notifications_tab?target_profile_id={profile_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://nt_screen/,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://nt_screen/FB-SCREEN-FB,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://nt_screen/FB-SCREEN-FB?a=%7B%22analytics_module%22%3A%22birthday_center%22%2C%22title%22%3A%22Birthdays%22%2C%22hide-search-field%22%3Atrue%2C%22custom-qpl-marker-id%22%3A47251457%2C%22pull-to-refresh-enabled%22%3Atrue%7D&p=nt%2Fbirthday_center&q=%7B%22tracking%22%3A%7B%22notif_id%22%3A1585065188998340%2C%22notif_type%22%3A%22birthday_reminder%22%2C%22client%22%3A%22android%22%7D%2C%22referrer%22%3A%22notifications%22%7D&b=%5B%5D,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://nt_screen/FB-SCREEN-FB?a={?a}&p={?p}&q={?q}&i={?i},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://nux/profile_picture?external_photo_source={external_photo_source},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://oauth_account_linking/?state={?state}&code={?code}&savetocart={?savetocart},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://offline_viewing/enable,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://offlinefeed,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://open_instagram_fundraiser?fundraiser_id={fundraiser_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://open_wa_username_reserved,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://open_wa_usernames_easter_egg,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://open_wa_usernames_guest_web_upsell,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://open_whatsapp_business_username,No
+fb,"Marketplace, Shopping & Meta Pay",fb://orders_hub?referrer_surface={?referrer_surface}&additional_logging_data={?additional_logging_data}&deeplink_destination={?deeplink_destination}&deeplink_destination_params={?deeplink_destination_params},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://otp?id={username}&pass={otp},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://page/message_thread/{#page_id}/{#com.facebook.katana.profile.id}?page_name={?arg_page_name}&source={?arg_url_source}&notif_id={?arg_notif_id}&notif_t={?arg_notif_type}&notif_m={?arg_notif_medium}&mbs_deeplink_uri={?arg_mbs_deeplink_uri}&instagram_deeplink_uri={?arg_instagram_deeplink_uri},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/messages/{#page_id}?page_name={?arg_page_name}&source={?arg_url_source}&notif_id={?arg_notif_id}&notif_t={?arg_notif_type}&notif_m={?arg_notif_medium}&mbs_deeplink_uri={?arg_mbs_deeplink_uri}&instagram_deeplink_uri={?arg_instagram_deeplink_uri},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/whatsapp/linking/?page_id={page_id}&ref={ref},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/{#arg_page_id,Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/{#arg_page_id}/notifications,Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://page/{#arg_page_id}/share_as_message,Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/{#arg_page_id}?floating_cta_ad_id={floating_cta_ad_id}&floating_cta_tracking_code={floating_cta_tracking_code}&floating_cta_should_render={!floating_cta_should_render}&floating_cta_tracking_node={#floating_cta_tracking_node}&floating_cta_delay_time={#floating_cta_delay_time},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/{#arg_page_id}?ref={ref},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://page/{#arg_page_id}?referrer={referrer}&name={?name}&profile_pic_url={?profile_pic_url}&admin_preview={?!admin_preview,Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/{arg_page_id}/book_appointment,Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/{arg_page_id}/book_appointment?referrer={?arg_referrer}&referrer_surface={?arg_referrer_surface}&service_id={?arg_service_id},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/{arg_page_id}/instant_booking,Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/{arg_page_id}/instant_booking?referrer={?arg_referrer}&referrer_surface={?arg_referrer_surface}&service_id={?arg_service_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://page/{arg_page_id}/invite_friends_to_like_page,Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://page/{arg_page_id}/suggestedit?entry_point={entry_point},Yes
+fb,Groups & Communities (Hội Nhóm),fb://page_like_promotion/?page_id={page_id}&boost_id={?boost_id}&source={?source}&boosted_component_action={?boosted_component_action}&referral={?referral}&restore_saved_settings={?restore_saved_settings}&coupon_promotion_group_id={?coupon_promotion_group_id}&ad_account_id={?ad_account_id}&scroll_to_section={?scroll_to_section}&show_native={?!show_native}&request_data={?request_data}&so={?so}&draft_id={?draft_id}&entry_point_details={?entry_point_details},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://page_or_profile_selector,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://page_recommendations/compose?page_id={launch_page_recommendations_composer_page_id},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://pages,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://pages/whatsapp/?code={code}&pn={pn}&value_prop={value_prop}&redirect_url={?redirect_url},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://pages/whatsapp/?code={code}&pn={pn}&value_prop={value_prop}&redirect_url={?redirect_url}&page_id={page_id},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://payments/addbank?receiver_id={receiver_id}&payment_item_type={payment_item_type}&nux_header_image_url={nux_header_image_url}&nux_header_text={nux_header_text},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://payments/payout?receiver_id={receiver_id}&payment_item_type={payment_item_type},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://payments/receipt?product_type={product_type}&product_id={product_id}&title={?title},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://payments/subscription/?id={id},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://payments_chargeback_represent?chargeback_id={chargeback_id}&ref={?ref}&logging_session_id={?logging_session_id}&initial_step={?initial_step},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://payments_enable_account?referrer={?referrer}&session_id={?session_id},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://payments_payout_support?ref={?ref}&logging_session_id={?logging_session_id}&financial_entity_id={?financial_entity_id}&payout_batch_id={?payout_batch_id},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://payments_support,No
+fb,"Marketplace, Shopping & Meta Pay",fb://paypal_connect_fail/,No
+fb,"Marketplace, Shopping & Meta Pay",fb://paypal_connect_success/,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://photo_menu/add/?page_id={#com.facebook.katana.profile.id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://platform,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://playable_ad/{ad_id}?preview={?preview},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://playable_ad?pa={pa}&dso={dso}&preview={?preview},Yes
+fb,"Reels, Watch, Video & Media",fb://playable_ad?playable_url={playable_url}&store_url={?store_url}&title={?title}&icon_url={?icon_url}&tracking_codes={?tracking_codes}&blurred_video_thumbnail_url={?blurred_video_thumbnail_url}&google_play_overlay={?google_play_overlay}&placement={?placement}&intent_should_get_data_or_get_string_extra={?intent_should_get_data_or_get_string_extra}&destination_url={?destination_url}&subtitle={?subtitle}&cta_text={?cta_text}&metaline={?metaline}&version={?version}&star_rating={?star_rating}&number_of_reviews={?number_of_reviews}&floating_cta_text={?floating_cta_text}&install_count={?install_count},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://pma/commshub/{#%s},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://pma/commshub/{#%s}/{%s},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://pokes,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://pokes_dashboard?source={?source},Yes
+fb,"Reels, Watch, Video & Media",fb://post_insights/?page_id={?page_id}&graphql_story_id={storyId}&source={?source}&product={?product},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://preferred_businesses/link_account/{consent_flow_name}?source={partnership_name}&extra_params={?extra_params},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://privacy_center?entrypoint={?entrypoint}&navigation_type=guide&guide_id={?guideId}&ad_id={?adId},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://privacy_center?entrypoint={?entrypoint}&navigation_type=guide&guide_id={?guideId}&guide_section_id={?guideSectionId}&ad_id={?adId},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://privacy_center?entrypoint={?entrypoint}&navigation_type={?navigationType}&ad_id={?adId},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://privacy_center_notif?entry_point={?entrypoint}&navigation_type={?navigationType},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://professional_mode_onboarding/?profile_id={profile_id}&referrer_surface={referrer_surface},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://professionalratertool,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?_bt_={_bt_},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?extra_launch_bio_edit_flow={extra_launch_bio_edit_flow},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?extra_launch_cover_photo_edit_flow={!extra_launch_cover_photo_edit_flow}&photo_option={?photo_option}&photo_id={?photo_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?extra_launch_featured_edit_flow={!extra_launch_featured_edit_flow},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?extra_launch_profile_photo_selector={!extra_launch_profile_photo_selector},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?extra_launch_profile_photo_selector={!extra_launch_profile_photo_selector}&qp_h={qp_h},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?extra_launch_profile_status_edit_flow={!extra_launch_profile_status_edit_flow},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?extra_launch_view_as={!extra_launch_view_as},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?extra_qp_launch_cover_artwork_edit_flow={!extra_qp_launch_cover_artwork_edit_flow},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?fun_fact_prompt_id={fun_fact_prompt_id}&fun_fact_prompt_title={fun_fact_prompt_title}&fun_fact_emoji={fun_fact_emoji},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?glimmer_state={glimmer_state},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={#com.facebook.katana.profile.id}&glimmer_state={glimmer_state},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={#com.facebook.katana.profile.id}&initial_tab={?initial_tab},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={#com.facebook.katana.profile.id}&initial_tab={?initial_tab}&post_id={?post_id}&entry_point={?entry_point}&scroll_to_tab={!scroll_to_tab}&scroll_to_posts={!scroll_to_posts},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={#com.facebook.katana.profile.id}&profile_type=person,Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={#com.facebook.katana.profile.id}&profile_type=person&greeting_type={greeting_type},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={#com.facebook.katana.profile.id}&profile_type=person&greeting_type={greeting_type}&greeting_action={greeting_action},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={#com.facebook.katana.profile.id}&profile_type=person&greetings={greetings},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={#com.facebook.katana.profile.id}&profile_type=person&launch_ask_share_title={launch_ask_share_title},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={#com.facebook.katana.profile.id}&scroll_to_posts={!scroll_to_posts},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?id={profileId}&profile_type=person&intro_card={intro_card},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?initial_tab={initial_tab},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/?referrer={referrer},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/birthday_card,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/edit_all_highlights?source={source}&profile_session_id={?profile_session_id}&back_to_profile={?!back_to_profile},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/frame_search?frame_search_query={?frame_search_query}&entry_point={?entry_point}&upload_on_save={?!upload_on_save},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}/friends/{target_tab_name},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}/friends/{target_tab_name}?source_ref={?source_ref,Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}?action_type={action_type},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}?composer={composer}&attachment_url={attachment_url},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}?composer={composer}&attachment_url={attachment_url}&qp_h={qp_h},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}?composer={composer}&initial_text={initial_text}&attachment_url={attachment_url},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}?composer={composer}&initial_text={initial_text}&attachment_url={attachment_url}&qp_h={qp_h},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://profile/{#com.facebook.katana.profile.id}?directory_title={directory_title}&directory_section_type={directory_section_type}&directory_item_id={directory_item_id}&directory_item_text={directory_item_text}&directory_item_associated_id={directory_item_associated_id}&profile_field_type={profile_field_type}&profile_field_experience_id={profile_field_experience_id}&profile_field_relationship_id={profile_field_relationship_id}&profile_field_page_id={profile_field_page_id}&profile_field_group_id={profile_field_group_id}&profile_field_website_id={profile_field_website_id}&profile_field_directory_item_id={profile_field_directory_item_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}?floating_cta_ad_id={floating_cta_ad_id}&floating_cta_tracking_code={floating_cta_tracking_code}&floating_cta_should_render={!floating_cta_should_render}&floating_cta_tracking_node={#floating_cta_tracking_node}&floating_cta_delay_time={#floating_cta_delay_time},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}?fref={timeline_friend_request_ref},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}?glimmer_state={?glimmer_state},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{#com.facebook.katana.profile.id}?ref={ref}&initial_tab={?initial_tab}&post_id={?post_id}&entry_point={?entry_point}&scroll_to_tab={!scroll_to_tab}&scroll_to_posts={!scroll_to_posts},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile/{com.facebook.katana.profile.id}?profile_type={com.facebook.katana.profile.type},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile?frame_id={frame_id}&entry_point={entry_point}&upload_on_save={?!upload_on_save},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://profileActionsSettings/?profile_id={profile_id}&associated_entity_id={associated_entity_id}&profile_action_bar_render_location={action_bar_render_location}&render_location={render_location},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://profileActionsSettings/?profile_id={profile_id}&associated_entity_id={associated_entity_id}&profile_action_bar_render_location={action_bar_render_location}&render_location={render_location}&profile_name={profile_name},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profileActionsSettings/?profile_id={profile_id}&profile_action_bar_render_location={action_bar_render_location},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profileActionsSettings/?profile_id={profile_id}&profile_action_bar_render_location={action_bar_render_location}&profile_name={profile_name},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profileActionsSettings/?profile_id={profile_id}&profile_action_bar_render_location={action_bar_render_location}&profile_name={profile_name}&tracking_code={tracking_code},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile_edit_pronouns,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profile_themed_bucket/{bucket_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://profilepictureupload,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://promotions_hub?page_id={page_id}&mode={?mode}&source_location={?source_location}&spec_override={?spec_override}&boost_unavailable={?boost_unavailable},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://protools/?entry_point={?entry_point}&default_index={?default_index}&sub_tabs={?sub_tabs}&session_id={?session_id},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://public_channels_directory?entry_point={?entry_point},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://public_chat_mib_thread_view?thread_id={?#thread_id}&entry_point={?entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://qp_interstitial?surface_nux_id=11042&dismiss_last_qp=true,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://qp_interstitial?surface_nux_id={surface_nux_id}&dismiss_last_qp={dismiss_last_qp},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://qp_nudity_protections_default_on_nux,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://qr_code_login/?encrypted_blob={encrypted_blob},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://rapid_reporting?object_id={object_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://rapid_reporting?object_id={object_id}&location={location},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://recent_feed?source={most_recent_entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://redirect_to_app,No
+fb,"Reels, Watch, Video & Media",fb://reels/?autoCreatedReel={?!auto_created_reel}&mediaIds={?media_ids}&mediaUris={?media_uris}&thumbnailUris={?thumbnail_uris}&isVideos={?is_videos}&startReason={?start_reason},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://reels/composer,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://reels/composer?startReason={?start_reason},Yes
+fb,"Reels, Watch, Video & Media",fb://reels/drafts,No
+fb,"Reels, Watch, Video & Media",fb://reels/templates,No
+fb,"Reels, Watch, Video & Media",fb://reels/tips,No
+fb,"Reels, Watch, Video & Media",fb://reels/topic?id={id},Yes
+fb,"Reels, Watch, Video & Media",fb://reels_ads_onboarding?creator_id={creator_id},Yes
+fb,"Reels, Watch, Video & Media",fb://reels_ai_effects,No
+fb,"Reels, Watch, Video & Media",fb://reelsinspirationhub?page_id={?page_id}&hashtag_ids={?hashtag_ids}&audio_ids={?audio_ids}&ndid={?ndid}&entry_point={?entry_point},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://registration,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://registration/resume,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://requests,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://researchpoll,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://safetycheck,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://save_dashboard_rn,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://save_new_collection_v2,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/?filter={extra_filter},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/?list_id={extra_list_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/?list_id={extra_list_id}&referer={extra_referer},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/?referer={?extra_referer}&notif_id={?extra_notif_id}&qp_conversion_token={extra_qp_conversion_token},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/?referer={extra_referer},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/?referer={extra_referer}&hoisted_item_id={extra_hoisted_item_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/?referer={extra_referer}&notif_id={extra_notif_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/?section_name={extra_list_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/?section_name={extra_list_id}&referer={extra_referer},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/list/create/?surface={surface}&mechanism={mechanism},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/list/create/?surface={surface}&mechanism={mechanism}&item_id={item_id},Yes
+fb,"Reels, Watch, Video & Media",fb://saved/list/create/?surface={surface}&mechanism={mechanism}&story_id={story_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/list/create/?surface={surface}&mechanism={mechanism}&url={url},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/list/select_to_add/?url={url},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/list/{extra_list_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/list/{extra_list_id}?isCollaborativeCollection={extra_isCollaborativeCollection},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/list/{extra_list_id}?referrer={extra_referrer},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://saved/list/{extra_list_id}?referrer={extra_referrer}&isCollaborativeCollection={extra_isCollaborativeCollection},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://search,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://search?graph_search_scoped_entity_type={?graph_search_scoped_entity_type}&graph_search_scoped_entity_id={?graph_search_scoped_entity_id}&graph_search_scoped_entity_name={?graph_search_scoped_entity_name}&query={?query}&action={?action}&surface={?surface}&hide_keyboard={?hide_keyboard}&,Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://search_result_page,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://search_result_page?query={query}&source={source}&action={?action}&surface={?surface}&hc_id={?hc_id}&hc_source={?hc_source}&source_session_id={?source_session_id}&search_topic_data={?search_topic_data}&post_context={?post_context}&,Yes
+fb,"Reels, Watch, Video & Media",fb://search_result_page?query_function={query_function}&title={title}&source={source}&result_type={?result_type}&query_vertical={?query_vertical}&action={?action}&surface={?surface}&hc_id={?hc_id}&hc_source={?hc_source}&source_session_id={?source_session_id}&display_style={?display_style}&graph_search_scoped_entity_type={?graph_search_scoped_entity_type}&graph_search_scoped_entity_id={?graph_search_scoped_entity_id}&graph_search_scoped_entity_name={?graph_search_scoped_entity_name}&background_session_id={?background_session_id}&search_extra_data={?search_extra_data}&restore_typehead_query_after_deeplink={?restore_typehead_query_after_deeplink}&search_custom_config={?search_custom_config}&search_intercept_config={?search_intercept_config}&search_topic_data={?search_topic_data}&ta_entry_point_action={?ta_entry_point_action}&trigger_blended_serp={?trigger_blended_serp}&search_results_post_context_id={?search_results_post_context_id}&search_results_post_context_graphql_story_id={?search_results_post_context_graphql_story_id}&search_results_post_context_source_type={?search_results_post_context_source_type}&search_results_context_token={?search_results_context_token}&post_context={?post_context}&conversation_id={?conversation_id}&,Yes
+fb,Groups & Communities (Hội Nhóm),fb://search_topic_deep_dive?topic_id={topic_id}&extra_data={?extra_data}&scope_id={?scope_id}&scope_type={?scope_type}&scope_entity_name={?scope_entity_name}&search_scoped_entity_type={?search_scoped_entity_type}&search_scoped_entity_id={?search_scoped_entity_id}&search_scoped_entity_name={?search_scoped_entity_name}&force_scope_check={?force_scope_check}&force_group_scope={?force_group_scope}&,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://search_voyager?show_voyager={show_voyager}&action={?action}&surface={?surface}&,Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://security_settings,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://securitycheckup/?source={source},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://seen,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://self_serve/{landing_page},Yes
+fb,"Reels, Watch, Video & Media",fb://self_serve/{landing_page}?draft_post_id={?draft_post_id}&video_gen_id={?video_gen_id},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://services_book_appointment?page_id={arg_page_id}&referrer={?arg_referrer}&referrer_surface={?arg_referrer_surface}&service_id={?arg_service_id},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://settings/category?category_id=1266933967001464,Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://settings/page_access_limits,No
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://settings/page_access_limits?page_id={?page_id}&ref={?ref},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://shared/?url={url}&iab_session_id={iab_session_id},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://shop,No
+fb,"Marketplace, Shopping & Meta Pay",fb://shop/bloks/?s={surface}&q={query},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://shop/cpdp?pid={pid}&mid={?mid}&data={?data}&ref_surface={?ref_surface}&ref_code={?ref_code}&ref_ui_component={?ref_ui_component}&ad_id={?ad_id}&ad_tracking_token={?ad_tracking_token}&tracking={?tracking}&product_finder_logging_blob={?product_finder_logging_blob}&direct_from_ad={?direct_from_ad}&layout_type={?layout_type},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://shop?identifier={identifier}&referral_code={?referral_code}&referral_surface={?referral_surface}&force_recreate_activity={?force_recreate_activity},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://shop?vanity={vanity}&referral_code={?referral_code}&referral_surface={?referral_surface}&force_recreate_activity={?force_recreate_activity},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://shop_pay_did_finish,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://shop_pay_did_finish?status={?status}&error_code={?error_code}&error_source={?error_source}&session_id={?session_id}&state={?state}&code={?code},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://shopfinder,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://shorts_aggregation_profile?agg_id={profile_id}&entry_point={profile_entry_point}&profile_type={?profile_type},Yes
+fb,"Reels, Watch, Video & Media",fb://shorts_surprise/program_landing_page,No
+fb,"Reels, Watch, Video & Media",fb://shorts_surprise/program_landing_page?entry_point={surprise_entry_point},Yes
+fb,"Reels, Watch, Video & Media",fb://shorts_surprise/program_landing_page?entry_point={surprise_entry_point}&hide_creation_button={should_hide_creation_button},Yes
+fb,Generative AI & Meta Bots,fb://silverstone?link_to_open=meta-ai%3A%2F%2Fhome,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://silverstone?link_to_open=vibes%3A%2F%2Fvibes,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://silverstone?link_to_open={?link_to_open}&override_post_tap_variant={?override_post_tap_variant}&xmt={?xmt}&override_min_app_version={?override_min_app_version}&utm_source={?utm_source}&utm_campaign={?utm_campaign}&utm_medium={?utm_medium}&entry_context_token={?entry_context_token},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://snacks_sharesheet,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://soap_onboarding?source={source}&flow_name={?flow_name},Yes
+fb,Generative AI & Meta Bots,fb://social_ai_creation_remix,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://social_ai_creation_remix?action={?action}&source_media_id={?source_media_id}&request_surface={?request_surface}&content_id={?content_id}&effect_ent_id={?effect_ent_id}&friend_id={?friend_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://sowa_interstitial,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://spotify-login-callback,No
+fb,"Marketplace, Shopping & Meta Pay",fb://stablecoin_wallet_connector,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://stars_custom_bloks_host?action_type={action_type}&id1={?id1}&id2={?id2}&int1={?int1}&int2={?int2}&string1={?string1}&string2={?string2}&float1={?float1}&float2={?float2},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://stars_default_on_first_time_receiver?tip={tip},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://stella_provider_linking,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://step_up?flow_type={flow_type}&flow_params={?flow_params}&ref={?ref}&upl_session_id={?upl_session_id},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://store_locator/?north={north}&west={west}&south={south}&east={east}&ad_id={?ad_id}&page_set_id={?page_set_id}&parent_page_id={?parent_page_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://stories_archive/archive_type/{archive_type}/owner_id/{owner_id}/archive_entry_point/{archive_entry_point},Yes
+fb,"Reels, Watch, Video & Media",fb://stories_archive?archive_type={archive_type}&archive_entry_point={archive_entry_point}&sub_type={sub_type}&local_creation_time={?local_creation_time}&archived_story_filter_type={?archived_story_filter_type}&initial_story_id={?initial_story_id}&owner_id={?owner_id},Yes
+fb,Pages & Business (Fanpage & Doanh Nghiệp),fb://stories_explore_page,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://stories_muted_settings,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://storiesarchive/archive_entry_point/{archive_entry_point}/sub_type/{sub_type},Yes
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://storiesarchive_settings?source={source},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://storiescomposerforadscampaign,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://storiescomposergallery,No
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://story_privacy/{subpage}?source={source},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://story_privacy?source={source},Yes
+fb,Feed & Composer (Bảng Tin & Soạn Bài Viết),fb://storycomposer?entry_point={?entry_point}&source_surface={?source_surface}&folder={?folder},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://storycomposerforchannelshare?channel_name={?channel_name}&channel_desc={?channel_desc}&member_count={?member_count}&channel_image_uri={?channel_image_uri}&thread_id={?thread_id}&target_user_id={?target_user_id}&channel_sticker_style={?channel_sticker_style}&message_text={?message_text}&message_author={?message_author}&message_author_profile_pic_url={?message_author_profile_pic_url}&message_id={?message_id}&message_type={?message_type}&message_image_uri={?message_image_uri},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://storycomposerforcommunityshare?community_name={?community_name}&community_intro={?community_intro}&image_uri={?image_uri}&thread_name={?thread_name}&target_user_id={?target_user_id}&community_id={?community_id}&thread_id={?thread_id},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://storycomposerforxmashare?title={?title}&subtitle={?subtitle}&image_uri={?image_uri}&permalink_url={?permalink_url}&target_user_id={?target_user_id}&xma_content_type={?xma_content_type}&reel_video_id={?reel_video_id},Yes
+fb,"Reels, Watch, Video & Media",fb://storygallerysurvey/{id},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://storyviewer/bucket_id/{bucket_id}/bucket_owner_id/{bucket_owner_id}/story_id/{story_id}/story_card_post_id/{story_card_post_id}/archived_story_card_local_creation_time/{archived_story_card_local_creation_time}/target_surface/{target_surface}/camera_post_type/{camera_post_type}/camera_post_notif_type/{camera_post_notif_type}/expiry_time/{expiry_time}/local_expiry_time_string/{local_expiry_time_string}/associated_archive_card_id/{associated_archive_card_id}/local_creation_time/{local_creation_time}/notification_id/{notification_id}/notification_senders_count/{notification_senders_count}/page_story_sharer_id/{page_story_sharer_id}/should_auto_play/{should_auto_play}/ats_mid_card_index/{ats_mid_card_index}/ats_mid_card_media_index/{ats_mid_card_media_index}/ats_mid_card_daily_frequency_cap/{ats_mid_card_daily_frequency_cap}/ats_notif_mid_card_card_type/{ats_notif_mid_card_card_type}/tagged_page_id/{tagged_page_id}/pinned_bucket_ids/{pinned_bucket_ids}/reply_parent_comment_id/{reply_parent_comment_id}/comment_id/{comment_id}/source/{source},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://storyviewer/bucket_id/{bucket_id}/bucket_owner_id/{bucket_owner_id}/story_id/{story_id}/story_card_post_id/{story_card_post_id}/archived_story_card_local_creation_time/{archived_story_card_local_creation_time}/target_surface/{target_surface}/camera_post_type/{camera_post_type}/camera_post_notif_type/{camera_post_notif_type}/expiry_time/{expiry_time}/local_expiry_time_string/{local_expiry_time_string}/associated_archive_card_id/{associated_archive_card_id}/local_creation_time/{local_creation_time}/notification_id/{notification_id}/notification_senders_count/{notification_senders_count}/page_story_sharer_id/{page_story_sharer_id}/should_auto_play/{should_auto_play}/ats_mid_card_index/{ats_mid_card_index}/ats_mid_card_media_index/{ats_mid_card_media_index}/ats_mid_card_daily_frequency_cap/{ats_mid_card_daily_frequency_cap}/ats_notif_mid_card_card_type/{ats_notif_mid_card_card_type}/tagged_page_id/{tagged_page_id}/pinned_bucket_ids/{pinned_bucket_ids}/reply_parent_comment_id/{reply_parent_comment_id}/comment_id/{comment_id}/source/{source}/update_time/{update_time},Yes
+fb,"Reels, Watch, Video & Media",fb://storyviewer?bucketID={?bucket_id}&storyID={?thread_id}&source={source}&bucketOwnerID={?bucket_owner_id}&cameraPostType={?camera_post_type},Yes
+fb,"Reels, Watch, Video & Media",fb://storyviewer?bucketID={bucket_id}&storyID={?thread_id}&groupID={group_id},Yes
+fb,"Reels, Watch, Video & Media",fb://storyviewer?bucketID={bucket_id}&storyID={?thread_id}&mibextid={?mibextid},Yes
+fb,"Reels, Watch, Video & Media",fb://storyviewer?bucketID={bucket_id}&storyID={?thread_id}&source={source}&should_auto_play={should_auto_play},Yes
+fb,"Reels, Watch, Video & Media",fb://storyviewer?bucketID={bucket_id}&storyID={?thread_id}&source={source}&target_surface={target_surface}&comment_id={comment_id},Yes
+fb,"Reels, Watch, Video & Media",fb://storyviewer?bucketID={bucket_id}&storyID={?thread_id}&source={source}&useCache={!use_cache,Yes
+fb,"Reels, Watch, Video & Media",fb://storyviewer?bucketID={bucket_id}&storyID={?thread_id}&threadID={?thread_id}&source={source}&bucketIDs={?bucket_ids_list}&errorCode={?permalink_error_code}&recommendationCat={?recommendation_category},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://storyviewer?bucket_id={bucket_id}&story_id={thread_id}&local_creation_time={local_creation_time}&source={source}&associated_archive_card_id={associated_archive_card_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://support_item,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://supporthome/?source={source},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://switch_tab?target_tab_id={#target_tab_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://switch_tab?target_tab_id={#target_tab_id}&tab_animation_type={tab_animation_type}&is_home_screen_tab_shortcut={?!is_home_Screen_tab_shortcut},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://switcher_home_screen_shortcuts?user_id={user_id}&name={name}&profile_pic_url={profile_pic_url},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://third_party_oauth?state={?state}&code={?code}&error={?error},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://threads,No
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://timeline_review,No
+fb,"Reels, Watch, Video & Media",fb://top_live,No
+fb,"Reels, Watch, Video & Media",fb://top_live_videos,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://topics/?source={?source},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://transaction_details/{transaction_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://transaction_details/{transaction_id}?session_id={?session_id}&referrer={?referrer},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://transaction_support/{transaction_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://transaction_support/{transaction_id}?referrer={?referrer}&session_id={?session_id},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://transfer_your_information/redirect?state={state}&code={code},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://transliteration?enable={!enable,Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://trustly_authentication/?establishData={establishData},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://twilight,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://tyi/?source={source}&import_service={import_service},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://tyi/mobile/redirect?state={state}&code={code},Yes
+fb,"Marketplace, Shopping & Meta Pay",fb://update_payment?order_id={?order_id},Yes
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://user_consent_framework,No
+fb,Account & Authentication (Bảo Mật & Checkpoint),fb://user_consent_framework?params={params},Yes
+fb,"Reels, Watch, Video & Media",fb://video/?href={href},Yes
+fb,"Reels, Watch, Video & Media",fb://video/?id={id},Yes
+fb,"Reels, Watch, Video & Media",fb://video/{video_fbid}?source_url={href},Yes
+fb,"Reels, Watch, Video & Media",fb://video_data_saver_settings/?source=bookmarks,Yes
+fb,"Reels, Watch, Video & Media",fb://video_gen_ai_create,No
+fb,"Reels, Watch, Video & Media",fb://video_gen_ai_create?id={id},Yes
+fb,"Reels, Watch, Video & Media",fb://video_gen_ai_create?prompt_key={prompt_key},Yes
+fb,"Reels, Watch, Video & Media",fb://video_home,No
+fb,"Reels, Watch, Video & Media",fb://video_notification/?notif_story_id={notif_story_id}&notif_cache_id={notif_cache_id}&comment_id={comment_id}&notif_id={notif_id}&video_id={video_id}&notif_type={notif_type},Yes
+fb,"Reels, Watch, Video & Media",fb://video_notification/?videoid={video_id}&threadid={thread_id}&notif_id={notif_id},Yes
+fb,"Reels, Watch, Video & Media",fb://video_notification/pre_live_invite/?video_id={video_id}&broadcast_id={broadcast_id}&notif_id={notif_id},Yes
+fb,"Reels, Watch, Video & Media",fb://video_notification/watch/?video_id={video_id},Yes
+fb,"Reels, Watch, Video & Media",fb://video_notification_vh/?notif_story_id={notif_story_id}&notif_cache_id={notif_cache_id}&notif_id={notif_id},Yes
+fb,"Reels, Watch, Video & Media",fb://video_notification_vh/?video_id={video_id}&notif_story_id={notif_story_id}&notif_id={notif_id},Yes
+fb,"Reels, Watch, Video & Media",fb://videochannel?id={videoChannelId}&playerOrigin={?playerOrigin}&playerSuborigin={?playerSuborigin}&sectionTrackingData={?sectionTrackingData}&shouldOpenVDD={?shouldOpenVDD}&isReels={?isReels},Yes
+fb,"Reels, Watch, Video & Media",fb://videochannel?id={videoChannelId}&playerOrigin={?playerOrigin}&sectionTrackingData={?sectionTrackingData},Yes
+fb,"Reels, Watch, Video & Media",fb://videochannel?id={videoChannelId}&playerOrigin={?playerOrigin}&sectionTrackingData={?sectionTrackingData}&playerSuborigin={?playerSuborigin}&cacheTtlSeconds={?cacheTtlSeconds}&externalLogID={?externalLogID}&externalLogType={?externalLogType}&videoChainingCaller={?videoChainingCaller}&immersivePlayerBehavior={?immersivePlayerBehavior},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://votinginformationcenter,No
+fb,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fb://vpu_privacy_merge,No
+fb,"Reels, Watch, Video & Media",fb://watch,No
+fb,"Reels, Watch, Video & Media",fb://watch/channel?id={videoChannelId},Yes
+fb,"Reels, Watch, Video & Media",fb://watch/{subpath}/?topic={topic}&subtopic_id={?subtopic_id}&page_id={?page_id}&ref={?ref}&upstream={?upstream}&theme={?theme}&story_id={?story_id}&video_id={?video_id}&topic_entry_point={?topic_entry_point}&player_origin={?player_origin}&source={?source},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://watermark/addoverlay?update_profile_pic={!update_profile_pic}&media_id={media_id}&entry_point={?entry_point}&qp_h={?qp_h},Yes
+fb,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fb://watermark/shield?update_profile_pic={!update_profile_pic}&media_id={media_id}&entry_point={?entry_point}&qp_h={?qp_h},Yes
+fb,Groups & Communities (Hội Nhóm),fb://website_promotion/?page_id={page_id}&boost_id={?boost_id}&source={?source}&referral={?referral}&restore_saved_settings={?restore_saved_settings}&coupon_promotion_group_id={?coupon_promotion_group_id}&ad_account_id={?ad_account_id}&scroll_to_section={?scroll_to_section}&show_native={?!show_native}&request_data={?request_data}&so={?so}&draft_id={?draft_id}&entry_point_details={?entry_point_details},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://weekly_engagement_boards_list/?entry_point={entry_point}&creator_ids={?creator_ids},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://weekly_engagement_list/?creator_id={creator_id}&viewer_type={viewer_type}&entry_point={entry_point}&opted_in={opted_in},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://whatsapp,No
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://whatsapp?campaign={campaign},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://whatsapp?campaign={campaign}&source_surface={source_surface},Yes
+fb,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fb://whatsapp_account_hub,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://wifi?source=cellular_data,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://www_link?url={url},Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://zero_extrig/headers,No
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://zero_extrig/headers?force_headers={?!force_headers,Yes
+fb,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fb://zero_upsell,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal:///tyi/?source=<q$1>&import_service=<q$2>,Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://ac/redirect?deeplink_destination={deeplink_destination}&entrypoint={entrypoint},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://account_status,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://acv_deeplink_handler/?type={type}&identifier={identifier}&source={?source}&extra_params={?extra_params},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://admod_share_review?group_id={?group_id}&share_item_id={?share_item_id},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://adv_pro_internal_ui,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://adv_pro_uploader_internal_ui,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://aic_web_automation,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://attribution/flush_events,No
+fbinternal,Account & Authentication (Bảo Mật & Checkpoint),fbinternal://authenticity/wizard/global_id,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://autoflex_new_res_optin,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://avatar,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://avatar?surface={?surface}&mechanism={?mechanism}&nux={?!nux}&source_type={?source_type}&destination={?destination}&post_save_share_option={?post_save_share_option}&post_save_wait_time_millis={?#post_save_wait_time_millis}&initial_category_id={?initial_category_id}&redirect_url={?redirect_url}&on_launch_navigate_to={?on_launch_navigate_to}&on_launch_navigation_data={?on_launch_navigation_data}&target_user_id={?target_user_id},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://birthday_center_deep_link/prefetch/?url={url},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://birthday_center_notification/?referrer={?referrer}&tracking={?tracking}&n={?nav_to_profile_id}&s={?scheduled_card_profile_id}&t={?reminder_type},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://biz_disco/feed/?channel_id={channel_id}&entry_point_type={entry_point_type}&entry_story_index={entry_story_index}&search_query={?search_query}&extra_params={?extra_params},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://biz_disco/feed/?channel_id={channel_id}&entry_point_type={entry_point_type}&show_tabs={show_tabs}&tabs={tabs}&default_tab={default_tab}&search_query={?search_query}&extra_params={?extra_params},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://bloks_embedded_examples,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://bloks_embedded_examples/embedded_action_example,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://bloks_embedded_examples/fb_bloks_native_embedded_screen_example,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://bloks_embedded_examples/fb_bloks_privacy_selector_example,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://bloks_embedded_examples/fb_cds_native_embedded_screen_example?example_type={?example_type},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://bloks_embedded_examples/fb_native_to_bloks_screenquery_example,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://bloks_embedded_examples/hello_bloks,No
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://bloks_screen/?bloks_screen_id=com.bloks.www.bloks.commerce.cart.singlemerchantcart&bloks_screen_params={?bloks_screen_params}&bloks_screen_options={?bloks_screen_options}&bloks_cache_override_key={?bloks_cache_override_key}&extras={?extras},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://bloks_screen?bloks_screen_id={bloks_screen_id}&bloks_screen_params={?bloks_screen_params}&bloks_screen_options={?bloks_screen_options}&bloks_cache_override_key={?bloks_cache_override_key},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://bloks_screen_query?app_id={app_id}&bloks_screen_params={?bloks_screen_params}&bloks_screen_options={?bloks_screen_options},Yes
+fbinternal,Pages & Business (Fanpage & Doanh Nghiệp),fbinternal://business_service_center?referrer={referrer},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://care_center_fullscreen_contextual_help?careCenterSurface=SURFACE_FBPAY_PAYMENT_HISTORY&product=FBPAY_HUB&uplSupportFlowType=fbpay_payment_history_contextual_help,Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://chat_settings_bookmark,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://cmb_chat_full_bottom_sheet.*,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://cmb_chat_full_bottom_sheet?thread_id={?thread_id},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://cmb_chat_suggestion.*,No
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://cmb_chat_suggestion?group_id={?group_id}&entry_point={?entry_point}&force_show_nux={!?force_show_nux}&post_id={?post_id}&is_opened_from_chat_selection_bottom_sheet={!?is_opened_from_chat_selection_bottom_sheet}&should_invite_commenters={!?should_invite_commenters},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://cmb_thread_join_or_open.*,No
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://cmb_thread_join_or_open?group_id={?group_id}&thread_id={?thread_id}&surface={?surface}&source_entry_point={?source_entry_point}&messenger_installed={!?messenger_installed}&extra_data={?extra_data},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://collaborative_story_invitation,No
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://community_notes_notification/?tb={?tb}&m_id={?m_id}&sam={?sam},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://composer/launch/?link={link},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://composer/launch/?shareid={shareid},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://composer_connect_whatsapp_view/?page_id={page_id},Yes
+fbinternal,Account & Authentication (Bảo Mật & Checkpoint),fbinternal://consent_prompt_example,No
+fbinternal,Account & Authentication (Bảo Mật & Checkpoint),fbinternal://consent_prompt_example?selectedConfigEnum={selectedConfigEnum},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://directinstall,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://directinstall/%s?dso_id=%s,Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://directinstall/{#app_id,Yes
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://directinstallnotification,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://directinstallnotification/%d?dso_id=%s&package_name=%s,Yes
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://directinstallnotification/{#app_id,Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://discovery_hub_screen/{hub},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://discovery_hub_screen/{hub}?ENABLE_STICKY_SUB_NAV_BAR={?ENABLE_STICKY_SUB_NAV_BAR}&ENTRYPOINT={?ENTRYPOINT}&FRESH_CACHE_TTL={?FRESH_CACHE_TTL}&MAX_CACHE_TTL={?MAX_CACHE_TTL}&PAGINATION_QPL_MARKER_ID={?PAGINATION_QPL_MARKER_ID}&SERVER_REQUEST_INPUT_DATA={?SERVER_REQUEST_INPUT_DATA}&TTRC_QPL_MARKER_ID={?TTRC_QPL_MARKER_ID},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://dynamic_descriptor/?ad_account_id={?ad_account_id_val}&entry_point={?entry_point_val},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://dynamic_descriptor?ad_account_id={?ad_account_id_val},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/drive_deprecation,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/nux?auto_eb_option=,Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/nux?auto_eb_option=DriveDeprecationPinCheck,Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/nux?auto_eb_option={auto_eb_option},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/nux?by_inbox_banner=,Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/nux?by_inbox_banner={!by_inbox_banner},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/nux?by_nux_launcher=,Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/nux?by_nux_launcher={!by_nux_launcher},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/nux?restore_option=,Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/nux?restore_option={restore_option}&is_for_retro_active_nux={!is_for_retro_active_nux},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/pin?flow_type=,Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/eb/pin?flow_type={flow_type}&otc_enabled={!otc_enabled}&auto_eb_is_soft_nux={!auto_eb_is_soft_nux},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/qp/advancedsettings,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/qp/onboard_or_restore,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/qp/pincreation,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://e2ee/inbox/qp/pincreation?entry_point={entry_point},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://e2ee/media_viewer/local_management?rendering_mode={?rendering_mode}&fetch_mode={?fetch_mode}&product_type={?product_type}&thread_key={?thread_key,Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://editprofilebio/?user_name={status_user_name_string}&status_text={status_text},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://edits/composerselector?videoUri={%s},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://edits/composerselector?videoUri={video_uri},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://event_duplicate_v2/?ref_module={?ref_module}&ref_mechanism={?ref_mechanism}&event_id={?event_id}&creation_entrypoint={?creation_entrypoint}&v2={?v2}&duplicate={?duplicate},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://event_edit_v2/?ref_module={?ref_module}&ref_mechanism={?ref_mechanism}&event_id={?event_id}&creation_entrypoint={?creation_entrypoint}&v2={?v2},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://events_reminder/?post_id={post_id},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://explore/?hoisted_post_ids={?hoisted_post_ids}&referrer={?referrer}&tab_id={?tab_id}&push={?!push}&navigate={?!navigate}&launch_mode={?launch_mode},Yes
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://explore/notifications,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://facerec_settings,No
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://fb_fandom_community_space/,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://fb_fandom_community_space/{#profile_id}?entry_point={?entry_point}&tab={?tab}&hoisted_post_id={?hoisted_post_id},Yes
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://fb_fandom_community_space_aggregated([/?]|$),Yes
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://fb_fandom_community_space_aggregated?entry_point={?entry_point},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://fb_mib/friending,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://fb_mib_chat_notification_settings_activity,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://fb_mib_thread_view_unsent_nux_activity,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?source={fb_shorts_viewer_launch_source},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&show_hashtag_nux={fb_shorts_show_hashtag_nux},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&audio_track_language={?audio_track_language}&show_translate_promo_sheet={?show_translate_promo_sheet},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&collection_id={fb_shorts_viewer_collection_id}&marketplace_entrypoint={fb_shorts_viewer_marketplace_entrypoint},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&comment_id={?comment_id}&open_like_count={!open_like_count,Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&fb_shorts_message_owner_id_from_reshared_uri={fb_shorts_message_owner_id_from_reshared_uri}&fb_shorts_sender_id_from_reshared_uri={fb_shorts_sender_id_from_reshared_uri}&fb_shorts_sender_name_from_reshared_uri={fb_shorts_sender_name_from_reshared_uri}&fb_shorts_sender_profile_url_from_reshared_uri={fb_shorts_sender_profile_url_from_reshared_uri}&fb_shorts_message_text_from_reshared_uri={fb_shorts_message_text_from_reshared_uri}&fb_shorts_source_type_from_reshared_uri={fb_shorts_source_type_from_reshared_uri},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&fb_shorts_sender_id_from_reshared_uri={fb_shorts_sender_id_from_reshared_uri}&fb_shorts_sender_name_from_reshared_uri={fb_shorts_sender_name_from_reshared_uri}&fb_shorts_sender_profile_url_from_reshared_uri={fb_shorts_sender_profile_url_from_reshared_uri}&fb_shorts_message_text_from_reshared_uri={fb_shorts_message_text_from_reshared_uri}&fb_shorts_source_type_from_reshared_uri={fb_shorts_source_type_from_reshared_uri},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&notif_type={notif_type},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&open_report={!open_report,Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fb_shorts/viewer?video_id={fb_shorts_video_id_from_uri}&source={fb_shorts_viewer_launch_source}&r2d2_news={r2d2_news_string},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://fb_splitview/feed?story_id={story_id}&initial_destination_uri={initial_destination_uri}&multi_ads_unit_id={?multi_ads_unit_id},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://fbinternal://composer/transliteration/?entry_point={?entry_point},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fbinternal://coupon_interstitial/?page_id={page_id}&boost_id={?boost_id}&graphql_story_id={?storyId}&legacy_story_id={?legacy_story_id}&referral={?referral}&coupon_promotion_group_id={?coupon_promotion_group_id}&ad_account_id={?ad_account_id}&scroll_to_section={?scroll_to_section}&request_data={?request_data}&product={?product},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fbinternal://gemstone,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fbinternal://gemstone/{?gemstone_subsurface},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://fbinternal://gemstone?entry_point={?entry_point}&community_id={?community_id}&community_type={?community_type}&community_name={?community_name}&lock_status={?lock_status}&match_count={?match_count},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://fbinternal://groups/admin_edit_rules_edit?group_id={group_feed_id}&groups_rules_title={GROUPS_RULES_ADD_RULE_RULE_TITLE_KEY}&groups_rules_body={GROUPS_RULES_ADD_RULE_RULE_BODY_KEY}&groups_rules_id={GROUPS_RULES_ADD_RULE_RULE_ID_KEY}&groups_rules_position={#GROUPS_RULES_ADD_RULE_RULE_POSITION_KEY}&groups_rules_is_new_rule={!GROUPS_RULES_ADD_RULE_IS_NEW_RULE_KEY},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://fbinternal://groups/admin_edit_rules_mode?group_id={group_feed_id},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://fbinternal://groups/admin_edit_rules_suggested?group_id={group_feed_id}&groups_rules_position={#GROUPS_RULES_ADD_RULE_RULE_POSITION_KEY},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://fbinternal://groups/admin_view_rules_mode?group_id={group_feed_id},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://fbinternal://profile/?extra_launch_add_music_flow={!extra_launch_add_music_flow},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fbinternal://storieshighlights,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://fbinternal://storysurface,No
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://fbpay?identifier=recurring_payment&recurring_payment_id=<p$1>&referrer=deeplink,Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://fbpay?identifier={?identifier}&referrer={referrer}&payment_category={?payment_category}&recurring_payment_id={?recurring_payment_id},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fleetbeacon,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_clear_prefs,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://fos_dogfooding_settings,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_enter_unknown,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_force_header_refresh,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_force_run_zbd,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_get_headers,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_get_token,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://fos_intern_settings,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_refresh_dual_token_graphql,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_refresh_token,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_refresh_token_graphql,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_reset_forced_free,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_show_fup,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_show_mobile_center,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_show_optin,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_show_zbd,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_switch_to_data,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_switch_to_free,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fos_turn_off,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://fx_cal/fb,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://gemstone,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://gemstone/settings/accountscenter?entry_point={?entry_point},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://gemstone?,Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://gemstone?entry_point=%s,Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://gemstone?entry_point=%s&community_id=%s&community_type=%s&community_name=%s&lock_status=%s&match_count=%d,Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://gemstone?entry_point=%s&home_redirect=%s,Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://gemstone?entry_point=%s&home_redirect=%s&gemstone_viewer_id=%s,Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://gemstone?entry_point=%s&home_redirect=%s&gemstone_viewer_id=%s&message_thread_id=%s&target_user_id=%s,Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://gemstone?entry_point=%s&home_redirect=%s&gemstone_viewer_id=%s&target_user_id=%s,Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://gemstone?entry_point=%s&home_redirect=%s&liked_you_target_user_id_1=%s&liked_you_target_user_id_2=%s,Yes
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://group_chat_mib_thread_view,No
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/admin_edit_rules_mode?group_id={group_feed_id},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/admin_home_edit_shortcuts_surface?group_feed_id={group_feed_id},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/admin_home_surface?group_feed_id={group_feed_id}&source={source},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/admin_queues?group_feed_id={group_feed_id}&queue={groups_unified_admin_home_sub_nav_selected_tab}&analytics_tag={analytics_tag}&source={?source}&hoisted_content_ids={?hoisted_content_ids},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/admin_settings?group_id={group_feed_id}&action={?action}&source={?source},Yes
+fbinternal,Account & Authentication (Bảo Mật & Checkpoint),fbinternal://groups/admin_tools_enforcement?group_feed_id={group_feed_id}&story_author_name={story_author_name}&story_actor_id={story_actor_id}&entry_point={entry_point}&story_id={?story_id}&room_hash={?room_hash},Yes
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://groups/adminautonomy/adminreviewqueue/?groupid={groupid}&hoisted_content_ids={?hoisted_content_ids}&subnav_enabled={?!subnav_enabled},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://groups/adminautonomy/memberflaggedcontent/?groupid={groupid}&storyid={storyid},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/announcements?group_feed_id={group_feed_id},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/edit_name_description/{group_feed_id},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/edit_name_description/{group_feed_id}?description_only={?!group_edit_only_des},Yes
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://groups/group_thanks/<p$1>,No
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://groups/invitation_reminder,No
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://groups/my_posts?group_id=%s,Yes
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://groups/my_posts?group_id={group_id},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/myposts/seeall/?groups_my_posts_hoisted_story_id=%s&groups_my_posts_hoisted_story_feedback_id=%s&groups_my_posts_content_type=%s&group_id=%s,Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/myposts/seeall/?groups_my_posts_hoisted_story_id={?groups_my_posts_hoisted_story_id}&groups_my_posts_hoisted_story_feedback_id={?groups_my_posts_hoisted_story_feedback_id}&groups_my_posts_content_type={groups_my_posts_content_type}&group_id={group_id},Yes
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://groups/onboarding/peoplepicker,No
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/scheduled_posts?group_feed_id={group_feed_id}&source={?source},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/settings/color?group_id={group_feed_id},Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://groups/topic_tag?group_feed_id={group_feed_id}&source={?source},Yes
+fbinternal,Groups & Communities (Hội Nhóm),fbinternal://groups_chats_creation_activity,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://growth/ndx?eligible_steps={eligible_steps}&server_eligibility={!server_eligibility}&session_key={session_key},Yes
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://ice_internal_settings,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://id_verification,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://id_verification?effect_id={effect_id}&flash_enabled={!flash_enabled}&capture_mode={capture_mode},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://immersive_post,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://immersive_post?story_id={story_id},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://inter_app/redirect?account_id={account_id}&profile_id={?profile_id}&destination_url={destination_url},Yes
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://internal_ota_settings,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://jobs_v2,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://jobs_v2?param={?param},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://legacy_contact/{id}/friend_requests,Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://live_photo_viewer_internal_ui,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://location_q_device_settings?action=value={?action},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://logout_activity/?logout_to_dbl_user={logout_to_dbl_user}&name={name},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://marketplace,No
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://marketplace?param={?param},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://marketplace_c2c_add_ssn,No
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://marketplace_c2c_add_ssn/?referralSurface=<q$1>,Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://marketplace_c2c_shipping_idvflow,No
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://marketplace_c2c_shipping_idvflow/?referral_surface=<q$1>,Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://marketplace_debug_info_details,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://marketplace_profile_seller_messaging,No
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://marketplace_structured_composer/?referralSurface=%s,Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://marketplace_structured_composer_vertical_selection/?referralSurface=%s,Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://messaging/peoplepicker,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://messaging/peoplepicker/,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://messaging/youtube/player,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://messaging/youtube/player?video_id={video_id}&is_shorts={is_shorts},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://messaging_commerce_ad_extension,No
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://messaging_commerce_ad_extension?productItemID=,Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://metatravel,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://metatravel/trip/{trip_id},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://mib/inbox,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://mib/oneToOneThread,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://mib/thread/?user_id={?#user_id}&thread_id={?#thread_id}&entry_point={?entry_point},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://mib_fb_notes/newnote,No
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://mini_feed/?token={token}&title={title}&render_location={render_location}&feedback_location={feedback_location}&am={?am}&source_type={?source_type}&disable_prefetch={?!disable_prefetch}&is_from_jewel_chaining={?is_from_jewel_chaining}&jewel_chaining_secondary_title={?jewel_chaining_secondary_title}&comment_id={?comment_id}&subtitle={?subtitle}&se={?se},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://mp_native_thread_view,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://msgr_os_notification_settings,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://multi_submit_lead_gen_chained_form/?selected_story_ids={selected_story_ids}&seed_ad_id={?seed_ad_id},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://native_bloks_examples_screen,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://native_template_hybrid_shell,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://native_template_toggle_bottom_sheet_from_native,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://native_template_toggle_nt_state_from_native,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://notif_dialog_fragment,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://notification_permission_dialog,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://notification_permission_system_dialog,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://notifications_digest/?notif_id={notif_id},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://oculus_inline_checkout/,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://osnotificationsettings,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://photo_filler_internal_ui,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://platform,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://preloads_app_updates,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://preloads_update_over_cellular,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://preloads_update_over_cellular_auto_approve,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://privacy_timeline_and_tagging_settings/,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://privacy_timeline_and_tagging_settings_toggle_tag_review/,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://privacy_timeline_and_tagging_settings_toggle_timeline_review/,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://privacy_touch_basic_redesign/,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://professional_dashboard,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://profile-social-lists?id={PROFILE_ID_EXTRA}&type={?LIST_SURFACE_TYPE_STRING_EXTRA}&prioritize_friending={?!PRIORITIZE_FRIENDING},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://profile/?id={#com.facebook.katana.profile.id}&entry_point={?entry_point},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://profile/cover_photo_reposition,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://profile/manage_posts,No
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://profile/music_full_list?profile_id={profile_id}&is_self_view={?!is_self_view}&session_id={session_id},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://profile/{#com.facebook.katana.profile.id}?entry_point={?entry_point},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://public_channel_create_poll?thread_id={thread_id}&entry_point={?entry_point},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://public_channel_create_prompt?thread_id={thread_id}&entry_point={?entry_point},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://public_channel_invite_screen?thread_id={thread_id}&is_viewer_admin={!is_viewer_admin}&entry_point={?entry_point}&is_post_creation_action={!?is_post_creation_action}&is_dismiss_goes_to_threadview={!?is_dismiss_goes_to_threadview},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://public_channel_view_pinned_channels?profile_id={profile_id},Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://public_chat_mib_thread_view,No
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://public_chat_mib_thread_view?thread_id=%s&thread_type=%s&entry_point=%s,Yes
+fbinternal,Messaging & Broadcast Channels (Tin Nhắn & Kênh),fbinternal://public_chat_thread_join_or_open?thread_id={?thread_id}&extra_data={?extra_data}&join_sheet_qpl_instance_key={?join_sheet_qpl_instance_key},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://reels_ads_onboarding?creator_id={creator_id},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://reels_ai_effects,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://save_new_collection_v2,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://services/bloks/?s={surface}&q={query},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://shop/,No
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://shop/bloks/,No
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://shop/bloks/?s={surface}&q={query},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://shop/cpdp?pid={pid}&mid={?mid}&data={?data}&ref_surface={?ref_surface}&ref_code={?ref_code}&ref_ui_component={?ref_ui_component}&ad_id={?ad_id}&ad_tracking_token={?ad_tracking_token}&tracking={?tracking}&product_finder_logging_blob={?product_finder_logging_blob}&direct_from_ad={?direct_from_ad}&layout_type={?layout_type},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://shop/open_document?document_id={document_id}&referral_code={?referral_code}&search_query={?search_query},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://shop/product_detail?id={product_id}&referral_code={?referral_code},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://shop/search_results?search_query={search_query}&scope_id={?scope_id}&referral_code={?referral_code}&search_type={?search_type},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://shop?identifier={identifier}&referral_code={?referral_code}&referral_surface={?referral_surface}&force_recreate_activity={?force_recreate_activity},Yes
+fbinternal,"Marketplace, Shopping & Meta Pay",fbinternal://shop?vanity={vanity}&referral_code={?referral_code}&referral_surface={?referral_surface}&force_recreate_activity={?force_recreate_activity},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://shorts_aggregation_profile?agg_id=%s&entry_point=%s,Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://shorts_aggregation_profile?agg_id={profile_id}&entry_point={profile_entry_point}&profile_type={?profile_type},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://some_native_raw_activity,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://storieshighlights/,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://suggested_language_switch,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://support,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://tab_bar_badge_settings,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://tab_bar_badge_settings/{tab_ids},Yes
+fbinternal,Pages & Business (Fanpage & Doanh Nghiệp),fbinternal://tab_customization_landing_page?action_type={action_type}&tab_id={tab_id}&action_context={action_context},Yes
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://tab_hiding_settings,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://tab_hiding_settings/,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://top_fans_deep_link/prefetch/?url={url},Yes
+fbinternal,Profile & Social Graph (Trang Cá Nhân & Bạn Bè),fbinternal://top_friends_feed/?story_id=,Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://top_of_feed_highlight/?top_of_feed_highlight_serialized_data=%s&should_scroll_to_comment=%s,Yes
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://top_of_feed_highlight/?top_of_feed_highlight_serialized_data={top_of_feed_highlight_serialized_data}&should_scroll_to_comment={?!should_scroll_to_comment},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://transaction_hub,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://transaction_hub?referrer=<q$1>,Yes
+fbinternal,Pages & Business (Fanpage & Doanh Nghiệp),fbinternal://transaction_hub?referrer={?referrer}&show_welcome_page={!?show_welcome_page}&show_security_center={!?show_security_center},Yes
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://transaction_hub?show_security_center=true,Yes
+fbinternal,Pages & Business (Fanpage & Doanh Nghiệp),fbinternal://transaction_hub?show_welcome_page=<q$1>,Yes
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://transaction_hub_settings,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://transaction_hub_settings?referrer=<q$1>,Yes
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://transaction_hub_settings?referrer={?referrer},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://transfer_your_information/redirect?state={state}&code={code},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://tyi/?source={source}&import_service={import_service},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://tyi/mobile/redirect?state={state}&code={code},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://uss_test_internal_ui,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://videochannel,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://videochannel?id={videoChannelId}&playerOrigin={?playerOrigin}&playerSuborigin={?playerSuborigin}&sectionTrackingData={?sectionTrackingData}&shouldOpenVDD={?shouldOpenVDD},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://videochannel?id={videoChannelId}&playerOrigin={?playerOrigin}&playerSuborigin={?playerSuborigin}&sectionTrackingData={?sectionTrackingData}&shouldOpenVDD={?shouldOpenVDD}&isReels={?isReels},Yes
+fbinternal,"Reels, Watch, Video & Media",fbinternal://watch_together,No
+fbinternal,"Reels, Watch, Video & Media",fbinternal://watchparty,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://wem_sharing_home/?entry_point=<q$1>,Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://wem_sharing_home/?entry_point={entry_point}&session_id={?session_id},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://widget_preview,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://widget_preview?size={size}&content_type={content_type},Yes
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://zero_e2e_tests,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://zero_flex_optin_interstitial_redesign,No
+fbinternal,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbinternal://zero_flex_optin_reconsider,No
+fbinternal,Settings & Privacy (Cài Đặt & Quyền Riêng Tư),fbinternal://zero_settings,No
+fbinternal,Feed & Composer (Bảng Tin & Soạn Bài Viết),fbinternal://zero_status,No
+fbrpc,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbrpc://facebook/,No
+fbrpc,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbrpc://facebook/call_return/\?.*$,Yes
+fbrpc,Internal & Developer Utilities (Nội Bộ Meta & Viễn Thông),fbrpc://facebook/nativethirdparty,No
+fbrpc,Generative AI & Meta Bots,fbrpc://facebook/nativethirdparty?appsite_data=%7B%22android%22%3A%5B%7B%22package%22%3A%22.%22%2C%22appsite_url%22%3A%22telprompt%3A%2B,Yes
